@@ -1,0 +1,35 @@
+name: Verify public R2 wallpaper delivery
+
+on:
+  push:
+    paths:
+      - ".github/workflows/verify-media.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read public media URLs from approved catalog
+        run: |
+          python3 - <<'PY'
+          import json, os
+          data = json.load(open("data/wallpapers.json", encoding="utf-8"))
+          item = next(x for x in data if x.get("hostedOn") == "Cloudflare R2" and "/downloads/" in x.get("downloadUrl", ""))
+          with open(os.environ["GITHUB_ENV"], "a") as env:
+              env.write("MEDIA_URL=" + item["url"] + "\n")
+              env.write("DOWNLOAD_URL=" + item["downloadUrl"] + "\n")
+          print("Checking:", item["title"])
+          PY
+      - name: Check publicly displayed wallpaper
+        run: |
+          curl -fsSIL --retry 2 --max-time 40 "$MEDIA_URL" | grep -i -E 'HTTP/|content-type:'
+      - name: Check download attachment response
+        run: |
+          curl -fsSIL --retry 2 --max-time 40 "$DOWNLOAD_URL" | grep -qi 'content-disposition: attachment'
+          echo "Public R2 display and direct-download headers are accessible."
