@@ -212,8 +212,8 @@
     "id": "fan-naruto-pencil",
     "title": "Naruto & Nine-Tails — Fan Pencil Art",
     "filename": "Art of Naruto.jpg",
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Art_of_Naruto.jpg",
-    "thumbnail": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Art_of_Naruto.jpg?width=640",
+    "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/3dc080a450b1ac5b76b93e1c0ac4.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/3dc080a450b1ac5b76b93e1c0ac4.jpg",
     "creator": "Noukayami",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -224,14 +224,16 @@
     "series": "Naruto",
     "orientation": "portrait",
     "description": "Hand-drawn pencil fan illustration of Naruto with the Nine-Tailed Fox; artwork by Noukayami.",
-    "collection": "Artist-licensed anime fan art"
+    "collection": "Artist-licensed anime fan art",
+    "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/3dc080a450b1ac5b76b93e1c0ac4.jpg",
+    "hostedOn": "Cloudflare R2"
   },
   {
     "id": "fan-gojo-sketch",
     "title": "Gojo Satoru — Fan Sketch",
     "filename": "Sketch of gojo satoru.jpg",
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sketch_of_gojo_satoru.jpg",
-    "thumbnail": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sketch_of_gojo_satoru.jpg?width=640",
+    "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/37781917dd4fda08ccb3adf47586.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/37781917dd4fda08ccb3adf47586.jpg",
     "creator": "Aarlen",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -242,6 +244,8 @@
     "series": "Jujutsu Kaisen",
     "orientation": "portrait",
     "description": "An independent ink-and-pencil-style fan sketch of Satoru Gojo, originally uploaded by Aarlen.",
-    "collection": "Artist-licensed anime fan art"
+    "collection": "Artist-licensed anime fan art",
+    "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/37781917dd4fda08ccb3adf47586.jpg",
+    "hostedOn": "Cloudflare R2"
   }
 ]
