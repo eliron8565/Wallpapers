@@ -1,0 +1,40 @@
+name: Website smoke tests
+
+on:
+  push:
+    paths:
+      - "index.html"
+      - "animewallora.js"
+      - "animewallora.css"
+      - "data/wallpapers.json"
+      - "scripts/validate-catalog.py"
+      - ".github/workflows/test-site.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check front-end JavaScript syntax
+        run: node --check animewallora.js
+      - name: Validate licensed media metadata
+        run: python3 scripts/validate-catalog.py
+      - name: Validate HTML references and JSON
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          text = Path("index.html").read_text(encoding="utf8")
+          assert 'lang="en"' in text
+          for filename in ("animewallora.css", "animewallora.js"):
+              assert filename in text, filename
+              assert Path(filename).is_file(), filename
+          items = json.loads(Path("data/wallpapers.json").read_text())
+          assert len(items) >= 10, "Expected nonempty curated image catalog"
+          assert all(x["permission"] == "open-license" for x in items if "filename" in x)
+          print(f"Site checks passed with {len(items)} licensed entries.")
+          PY
