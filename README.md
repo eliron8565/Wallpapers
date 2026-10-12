@@ -1,32 +1,25 @@
-# Wallora — Wallpapers for every screen
+# AnimeWallora
 
-A responsive, static wallpaper gallery built with HTML, CSS and JavaScript. No build tools, accounts, API keys, or backend required.
+An English-language, open-source anime wallpaper website built with static HTML, CSS and JavaScript. Hosted through GitHub Pages.
 
-## Features
-- 36 curated photography wallpapers displayed in a responsive image gallery
-- Categories: Nature, Space, Ocean, City, Minimal, Flowers and Architecture
-- Instant search, sorting and desktop/mobile orientation filtering
-- Full-size wallpaper preview with a download button
-- Favorites saved locally in the visitor's browser
-- Dark/light theme, English/Hebrew languages with RTL layout
-- Keyboard support: `/` to search, Escape to close previews
-- Responsive for desktops, tablets and phones
+## What's live
+- On-page GIPHY anime animation embeds; not mirrored or downloadable as local files
+- Dynamic gallery ready for **rights-cleared** wallpaper and video assets
+- Direct media links through `data/wallpapers.json` once Cloudflare R2 (or similar HTTPS media hosting) is connected
+- Search, mobile-first responsive layout, credits and source information
+- GitHub Actions validation of the wallpaper catalog and mandatory permission metadata
 
-## Publish with GitHub Pages
-Go to repository **Settings → Pages → Build and deployment**, select **Deploy from a branch**, choose **main** and **/(root)**, and save. Your published site will normally be:
+## Rights and licensing
+The four earlier generated vector wallpapers were removed on request. The download catalog is initially empty because no verified creator-licensed downloadable anime media has yet been supplied or approved. Open-sourcing this website's code does not make third-party anime images free to redistribute. Attribution alone is not permission.
 
-https://eliron8565.github.io/Wallpapers/
+GIPHY's API documentation forbids media caching/rehosting without approval. Wallper disallows redistributing its service without written permission. MoeWalls / MotionBGS media must be approved by its actual copyright holders prior to mirroring.
 
-GitHub Pages must be enabled in repository settings; committing these files does not automatically confirm deployment.
+## Setup
+- Read [MEDIA_SETUP.md](MEDIA_SETUP.md) for Cloudflare R2 storage and adding approved media.
+- Host from Settings → Pages → Deploy from main branch → root directory.
+- Website: https://eliron8565.github.io/Wallpapers/
 
-## Add more images
-Edit the `photos` array near the top of `app.js`. Each row follows:
+## Contributing
+Contribute anime wallpapers/videos only if you are the creator or have explicit rights to share. Provide creator, source, license/permission statement, original media format, and credit. Update `data/wallpapers.json` following MEDIA_SETUP instructions. GitHub Actions will validate metadata but cannot independently certify ownership.
 
-`['Title','Category','landscape or portrait','photo-UNSPLASH-ID','search,tags','Description']`
-
-Images are fetched from images.unsplash.com and require an internet connection. External image links can become unavailable; replace any unavailable image IDs with valid Unsplash photo IDs. For a production archive, consider hosting properly licensed images locally and tracking artist credits per image.
-
-## License and image credits
-Site source code: MIT License. Photos are hosted by Unsplash and remain subject to the [Unsplash License](https://unsplash.com/license). The repository does not own or redistribute the source photography. Credit photographers when adding or replacing images.
-
-Created for the [Wallpapers GitHub repository](https://github.com/eliron8565/Wallpapers).
+Website code is MIT-licensed (see LICENSE). This does not apply to third-party media.
