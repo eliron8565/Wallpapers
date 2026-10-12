@@ -10,7 +10,7 @@ An English-language open-source gallery for anime-inspired, fantasy, manga and a
 
 - Immersive, mobile-responsive visual design and curated artwork collection
 - **11 real independently created fantasy/manga illustrations** from Wikimedia Commons by **David Revoy** and **Niabot**
-- **16 embedded GIPHY animations** — played on the site, served and credited by GIPHY
+- **25 embedded GIPHY animations** — played on the site, served and credited by GIPHY
 - Fullscreen previews, artist/source/license details, filters, search, favorites saved in the browser
 - Cloudflare R2 hosting for Commons files with eligible verified open licenses
 - Automated catalog validation and website smoke tests
