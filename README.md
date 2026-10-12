@@ -1,52 +1,39 @@
-# ✦ AnimeWallora — Animated anime GIF wallpapers
-
-[![Website smoke tests](https://github.com/eliron8565/Wallpapers/actions/workflows/test-site.yml/badge.svg)](https://github.com/eliron8565/Wallpapers/actions/workflows/test-site.yml)
+# ✦ AnimeWallora — Anime Wallpapers, GIFs & Images
 
 **Website:** https://eliron8565.github.io/Wallpapers/
 
-AnimeWallora is a free, English-language anime **GIF and live wallpaper viewing gallery**. It has been redesigned around *animation only*.
+[![Website smoke tests](https://github.com/eliron8565/Wallpapers/actions/workflows/test-site.yml/badge.svg)](https://github.com/eliron8565/Wallpapers/actions/workflows/test-site.yml)
 
-### Gallery
+## The gallery
 
-- **46 individually sourced anime GIFs** embedded through GIPHY, including Jujutsu Kaisen, Demon Slayer, Naruto, Bleach, One Piece, Dragon Ball, Chainsaw Man, Attack on Titan.
-- No AI-generated or still images are included in the main gallery.
-- Series/category filters, character/title search, featured picks, favorites saved in the browser, and immersive enlarged animation previews.
-- Mobile-friendly dark UI, animated GIPHY hero and GIF-friendly layouts.
-- Individual animations have a link to their GIPHY source and named uploading account.
-- GitHub Actions smoke tests enforce animated-only design and data integrity.
-- Future animated files that creators have licensed for redistribution can be displayed and downloaded from Cloudflare R2.
+AnimeWallora is an independent, English-language anime wallpaper and GIF gallery built with HTML, CSS and JavaScript.
 
-### Adding more GIFs
+- **35 curated anime-related GIPHY embeds** with original uploader links: Jujutsu Kaisen, Demon Slayer, Bleach, Naruto, One Piece, Dragon Ball and Chainsaw Man.
+- **13 downloadable creator-licensed illustrations**, including independent fan sketches of **Gojo** and **Naruto** alongside manga-inspired and fantasy artwork.
+- Separate **All / GIFs / Images / Saved** tabs; searchable anime series, characters and creators; full-size preview modal; favorite wallpapers saved locally.
+- **Report incorrect / meme GIF** action: opens a prefilled GitHub issue with the exact GIPHY ID and source. This helps us remove incorrect, captioned or unsuitable clips quickly.
+- **Direct R2 image downloads** with a separate attachment URL, verified by the repository workflow.
+- Fully responsive layout, lazy-loaded original GIPHY players and GitHub Pages hosting.
 
-Verified on GIPHY? Add to [data/anime-gifs.json](data/anime-gifs.json):
+## No memes or mislabeling
 
-```json
-{
-  "id": "giphy-GIPHY_ID",
-  "title": "Example anime GIF",
-  "series": "Demon Slayer",
-  "character": "Tanjiro",
-  "giphyId": "GIPHY_ID",
-  "creator": "Creator's GIPHY username",
-  "tags": ["tanjiro", "breathing"],
-  "featured": false,
-  "type": "giphy",
-  "source": "https://giphy.com/gifs/GIPHY_ID"
-}
-```
+A previously displayed Bleach GIF with a meme caption was removed after user feedback. The curated GIF catalog is now maintained in [data/anime-gifs.json](data/anime-gifs.json). GIF titles and source metadata are checked when being added. **Source tags do not guarantee a clip has no added text or memes**, so reports remain important. A GIPHY embed is a preview clip, not necessarily a seamless/full-HD desktop live wallpaper.
 
-**Please use real existing GIF IDs and accurate creator credits**. The on-site embed uses the GIPHY player. The video/GIF files are **not downloaded or rehosted**; the host embeds them for viewers.
+## Publishing media
 
-### Downloadable looping wallpapers
+GIF embeds: add a source-verified GIPHY ID, anime name, accurate title and original uploader in `data/anime-gifs.json`. The GIF itself remains on GIPHY. Do not upload the corresponding GIF file into R2 without the applicable permission.
 
-The original `data/wallpapers.json` contains a previous, independently licensed **static art** archive that is **not shown** in the GIF-only gallery. For future rights-cleared GIF or MP4/WEBM contributions, the current site automatically includes records from that catalog when their media types and URLs identify them as animated media.
+Images and approved animated files: `data/wallpapers.json` contains creator credits, source pages, Creative Commons license and the original asset URL. The [Commons sync workflow](.github/workflows/sync-commons-r2.yml) checks the Commons API's current declared license and uploads allowed creator-licensed artwork to R2; [the manual publishing workflow](.github/workflows/publish-wallpaper.yml) supports other rights-cleared files.
 
-The existing [Publish licensed anime wallpaper to R2](.github/workflows/publish-wallpaper.yml) workflow can upload owner-approved media to Cloudflare R2 (requires configured repository secrets), and the site will show animated files with download controls.
+Current R2 bucket is `animewallora-media`. Workflows use repository secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, and variable `R2_PUBLIC_URL`. Do not commit keys. The public `.r2.dev` development host is rate-limited and should be replaced with a custom domain before high-traffic production use.
 
-Note that a GIF clip may not be a seamless 4K wallpaper. The gallery does not claim that each embed is 4K, and it does not grant download or redistribution rights to GIPHY content.
+## Credits, license, corrections
 
-### Copyright and open source
+- Site source: MIT ([LICENSE](LICENSE)).
+- Artwork and embedded clips: **separate copyright**, not included under the MIT software license. Respect the creator's attached license.
+- Two licensed fan sketches show anime characters, but these are **independent fan artworks**, not studio-issued official key art. Attribution and a Creative Commons license on a fan drawing do not imply an endorsement from its anime franchise.
+- GIPHY player embeds display third-party animated content without copying its bytes to R2.
+- **MoeWalls and Wallper assets are not mirrored** unless the applicable rights holder permits redistribution; credit alone does not provide permission.
+- To report a wrong GIF, meme, source mistake or rights concern, use the report link in the wallpaper preview or [open an issue](https://github.com/eliron8565/Wallpapers/issues/new).
 
-**MIT** applies to site code only (see [LICENSE](LICENSE)). Copyright in anime shows, clips and GIFs belongs to the respective creators and rights holders. GIPHY is used via official embeds with source links; this project is not affiliated with GIPHY or the studios. Merely giving credit to MoeWalls, Wallper or GIPHY is not sufficient permission to mirror their media into R2. Any creator-permitted animated GIFs or video files added to R2 require evidence of permissions or an applicable open license.
-
-To request correction or removal of an embed, create an issue with the source URL.
+The site can be served locally with `python -m http.server 8000`; opening `index.html` with `file://` may prevent JSON catalog loading.
