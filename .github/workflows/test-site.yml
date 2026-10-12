@@ -32,14 +32,14 @@ jobs:
           html = Path("index.html").read_text(encoding="utf8")
           app = Path("animewallora.js").read_text(encoding="utf8")
           assert 'lang="en"' in html
-          assert 'class="animated-only"' in html
+          assert 'class="anime-gallery"' in html
           for name in ("animewallora.css", "animewallora.js"):
               assert name in html and Path(name).is_file(), name
           assert "data/anime-gifs.json" in app
-          assert 'data-filter="image"' not in html, "Static art filter must stay removed"
-          assert "On_the_edge_-_free_world_version.jpg" not in html, "Static hero removed"
+          assert 'data-filter="images"' in html and 'data-filter="gifs"' in html, "GIF and image tabs are required"
+          assert "qQC8JPGoSvNWZ4GI26" not in html, "Untrusted meme-prone hero removed"
           items = json.loads(Path("data/anime-gifs.json").read_text(encoding="utf8"))
-          assert len(items) >= 40, "Expected 40+ real GIPHY embeds"
+          assert len(items) >= 30, "Expected at least 30 carefully selected GIPHY embeds"
           ids = set()
           required = {"Jujutsu Kaisen", "Demon Slayer", "Naruto", "Bleach", "One Piece"}
           for item in items:
@@ -51,5 +51,11 @@ jobs:
               for key in ("title", "creator", "series", "character"):
                   assert item.get(key), f"Missing {key}"
           assert required <= {x["series"] for x in items}
-          print(f"AnimeWallora passes: {len(items)} GIFs, {len(set(x['series'] for x in items))} anime series.")
+          assert not any(x["giphyId"] == "a5bBoYG5GpnypTmwES" for x in items), "Reported meme must not reappear"
+          assert all(x.get("creator") and x.get("source", "").startswith("https://giphy.com/gifs/") for x in items)
+          images = json.loads(Path("data/wallpapers.json").read_text(encoding="utf8"))
+          assert len(images) >= 11, "Expected original credited image artworks"
+          assert any(x.get("series") == "Jujutsu Kaisen" for x in images)
+          assert any(x.get("series") == "Naruto" for x in images)
+          print(f"AnimeWallora passes: {len(items)} curated GIF embeds, {len(images)} artworks.")
           PY
