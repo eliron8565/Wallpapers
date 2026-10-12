@@ -42,3 +42,49 @@
 .animated-only .viewer-art iframe{min-height:260px;height:280px}
 .animated-only .header-counter{display:none}
 }
+
+
+/* Anime gallery: independently credited image wallpapers + inline animated GIF embeds */
+.anime-gallery .hero-copy h1{font:900 clamp(50px,7vw,95px)/1.04 Outfit,sans-serif;letter-spacing:-4px;margin:23px 0}
+.anime-gallery .hero-copy h1 em{font-style:normal;color:#d8bfff}
+.anime-gallery .hero-copy h1 em span{color:#ffa68d}
+.anime-gallery .hero-copy p{color:#d7d5e4;font-size:15px;max-width:535px;line-height:1.8;margin:0}
+.anime-gallery .hero-fade{background:linear-gradient(90deg,#090a1df5 0%,#090a1de8 34%,#090a1d73 75%,#090a1d27 100%),linear-gradient(0deg,#090a1dc7,transparent 60%);pointer-events:none}
+.anime-gallery .hero-backdrop{background-size:cover;background-position:65% center}
+.anime-gallery .gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:19px}
+.anime-gallery .card-media{height:auto;aspect-ratio:16/10}
+.anime-gallery .card-media iframe,
+.anime-gallery .card-media video,
+.anime-gallery .card-media img{position:absolute;inset:0;width:100%;height:100%;border:0;object-fit:cover}
+.anime-gallery .card-media video{object-fit:cover}
+.anime-gallery .image-card .card-media{background:linear-gradient(145deg,#2a203a,#172238)}
+.anime-gallery .gif-card .card-media{background:linear-gradient(145deg,#282037,#212943)}
+.anime-gallery .wallpaper-card .card-body{padding:17px}
+.anime-gallery .wallpaper-card .card-body h3{font-size:16px}
+.anime-gallery .wallpaper-card .card-body p{font-size:11px;margin-bottom:12px}
+.anime-gallery .media-chip{font-size:10px;z-index:2}
+.anime-gallery .viewer-art iframe{height:100%;min-height:480px}
+.anime-gallery .viewer-art video{width:100%;max-height:75vh;object-fit:contain}
+.anime-gallery .viewer-art img{max-height:78vh}
+.anime-gallery .viewer-actions{align-items:center}
+.anime-gallery .issue-report{color:#bfa8ff;font-size:11px;display:inline-block;padding:6px 0;text-decoration:underline;text-underline-offset:3px}
+.anime-gallery .issue-report:hover{color:white}
+.anime-gallery .view-switch{flex-shrink:0}
+.anime-gallery .type-tab{padding:10px 17px}
+.anime-gallery .features-bar{justify-content:space-around}
+.anime-gallery .gif-card .license{color:#b1a4d9}
+.anime-gallery .image-card .license{color:#b8d5bd}
+@media(max-width:1050px){
+  .anime-gallery .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .anime-gallery .hero-copy h1{font-size:clamp(54px,8vw,78px)}
+}
+@media(max-width:570px){
+  .anime-gallery .gallery-grid{grid-template-columns:1fr;gap:14px}
+  .anime-gallery .card-media{aspect-ratio:16/9}
+  .anime-gallery .hero-copy h1{font-size:47px;letter-spacing:-2px}
+  .anime-gallery .hero-fade{background:linear-gradient(90deg,#090a1df7,#090a1dbb 100%),linear-gradient(0deg,#090a1dc7,transparent)}
+  .anime-gallery .hero-copy p{font-size:13px}
+  .anime-gallery .type-tab{padding:10px 11px;flex:1}
+  .anime-gallery .view-switch{flex:1}
+  .anime-gallery .viewer-art iframe{min-height:250px;height:275px}
+}
