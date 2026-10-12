@@ -1,0 +1,93 @@
+name: Publish licensed anime wallpaper to R2
+
+on:
+  workflow_dispatch:
+    inputs:
+      file_url:
+        description: 'Direct HTTPS download URL (only media you may redistribute)'
+        required: true
+        type: string
+      title:
+        description: 'Wallpaper title'
+        required: true
+        type: string
+      creator:
+        description: 'Creator or rights holder'
+        required: true
+        type: string
+      source:
+        description: 'Original creator/source page HTTPS URL'
+        required: true
+        type: string
+      license:
+        description: 'Exact reuse license or written permission reference'
+        required: true
+        type: string
+      permission:
+        description: 'Basis for redistributing media'
+        type: choice
+        options:
+          - own-work
+          - open-license
+          - written-permission
+        required: true
+      file_type:
+        description: 'Media type'
+        type: choice
+        options:
+          - image
+          - video
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wallpaper-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}
+      INPUT_URL: ${{ inputs.file_url }}
+      INPUT_TITLE: ${{ inputs.title }}
+      INPUT_CREATOR: ${{ inputs.creator }}
+      INPUT_SOURCE: ${{ inputs.source }}
+      INPUT_LICENSE: ${{ inputs.license }}
+      INPUT_PERMISSION: ${{ inputs.permission }}
+      INPUT_TYPE: ${{ inputs.file_type }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate configuration and provided metadata
+        run: |
+          test -n "$R2_ACCOUNT_ID" && test -n "$R2_ACCESS_KEY_ID" && test -n "$R2_SECRET_ACCESS_KEY" && test -n "$R2_PUBLIC_URL"
+          python scripts/publish-wallpaper.py prepare
+      - name: Download and inspect media
+        run: |
+          curl --fail --location --silent --show-error --max-time 240 --max-filesize 104857600 --proto '=https' --proto-redir '=https' --output media-upload "$INPUT_URL"
+          python scripts/publish-wallpaper.py inspect
+      - name: Upload to R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: auto
+        run: |
+          aws s3 cp media-upload "s3://animewallora-media/$(cat .upload-key)" --endpoint-url "https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com" --content-type "$(cat .media-type)"
+      - name: Update catalog
+        run: python scripts/publish-wallpaper.py catalog
+      - name: Commit updated catalog
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/wallpapers.json
+          git commit -m "Publish licensed anime wallpaper to media catalog"
+          git push
