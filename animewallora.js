@@ -180,7 +180,7 @@ async function load() {
   } else toast("Some GIFs couldn't load. Try refreshing.");
   if(i.status==="fulfilled"&&Array.isArray(i.value)) {
     state.images=i.value.filter(x=>x&&x.creator&&x.license&&x.permission&&httpsURL(x.url)&&["image","video"].includes(x.type))
-      .map((x,n)=>({...x,id:x.id||"image-"+n,series:x.series||x.category||"Illustrations",featured:n<2,type:x.type==="video"?"video":/\.gif(?:\?|$)/i.test(x.url)?"animated-gif":"image"}));
+      .map((x,n)=>({...x,id:x.id||"image-"+n,series:x.series||x.category||"Illustrations",featured:(x.series==="Jujutsu Kaisen"||x.series==="Naruto"||n===0),type:x.type==="video"?"video":/\.gif(?:\?|$)/i.test(x.url)?"animated-gif":"image"}));
     const preferred=state.images.find(x=>x.series==="Jujutsu Kaisen"||x.series==="Naruto")||state.images[0];
     if(preferred)$(".hero-backdrop").style.backgroundImage="url("+JSON.stringify(preferred.url)+")";
   }
