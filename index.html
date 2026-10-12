@@ -2,51 +2,64 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#090a13"><meta name="description" content="AnimeWallora — curated anime art, fantasy wallpapers and animated loops. Discover, preview, save and download creator-licensed wallpapers.">
-<title>AnimeWallora — Your next obsession.</title>
+<meta name="theme-color" content="#090a13">
+<meta name="description" content="AnimeWallora: a free anime GIF and live wallpaper gallery. Explore animated Jujutsu Kaisen, Demon Slayer, Naruto, Bleach, One Piece and more.">
+<title>AnimeWallora — Anime GIF & Live Wallpapers</title>
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./animewallora.css">
-<script src="./animewallora.js" defer></script>
+<script defer src="./animewallora.js"></script>
 </head>
-<body>
+<body class="animated-only">
 <div class="noise" aria-hidden="true"></div><div class="glow glow-one" aria-hidden="true"></div><div class="glow glow-two" aria-hidden="true"></div>
-<header class="site-header">
- <div class="header-inner">
-  <a href="#top" class="logo" aria-label="AnimeWallora home"><span class="logo-symbol">✦</span><span>anime<span>wallora</span><i>.</i></span></a>
-  <nav class="desktop-nav" aria-label="Main navigation"><a href="#discover" class="nav-active">Discover</a><a href="#wallpapers">Wallpapers</a><a href="#animated">Live & GIFs</a></nav>
-  <div class="top-actions"><button id="headerSearch" class="header-search" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg><span>Search</span><kbd>/</kbd></button><button id="favoritesNav" class="icon-button" aria-label="View favorites" title="Favorites"><svg viewBox="0 0 24 24"><path d="M20.7 4.5a5.5 5.5 0 0 0-7.8 0L12 5.4l-.9-.9a5.5 5.5 0 0 0-7.8 7.8L12 21l8.7-8.7a5.5 5.5 0 0 0 0-7.8Z"/></svg><span id="favoriteCount">0</span></button><a class="github-button" href="https://github.com/eliron8565/Wallpapers" target="_blank" rel="noopener noreferrer" title="View the open-source code">GitHub <span>↗</span></a></div>
- </div>
-</header>
+<header class="site-header"><div class="header-inner">
+<a href="#top" class="logo" aria-label="AnimeWallora home"><span class="logo-symbol">✦</span><span>anime<span>wallora</span><i>.</i></span></a>
+<nav class="desktop-nav" aria-label="Main navigation"><a href="#discover" class="nav-active">Explore</a><a href="#wallpapers">GIF wallpapers</a><a href="#animated">How it works</a></nav>
+<div class="top-actions">
+<button id="headerSearch" class="header-search" aria-label="Search GIF wallpapers"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg><span>Search</span><kbd>/</kbd></button>
+<button id="favoritesNav" class="icon-button" aria-label="Show saved GIFs" aria-pressed="false" title="Saved GIFs"><svg viewBox="0 0 24 24"><path d="M20.7 4.5a5.5 5.5 0 0 0-7.8 0L12 5.4l-.9-.9a5.5 5.5 0 0 0-7.8 7.8L12 21l8.7-8.7a5.5 5.5 0 0 0 0-7.8Z"/></svg><span id="favoriteCount">0</span></button>
+<a class="github-button" href="https://github.com/eliron8565/Wallpapers" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+</div></div></header>
 <main id="top">
 <section class="hero-shell" id="discover">
- <div class="hero-backdrop"></div><div class="hero-fade"></div>
- <div class="hero-inner">
-  <div class="hero-copy"><div class="eyebrow"><span class="eyebrow-line"></span> YOUR ANIME AESTHETIC STARTS HERE <span class="asterisk">✦</span></div>
-  <h1>Find your<br>next <em>obsession<span>.</span></em></h1>
-  <p>Walls are boring. Your screen shouldn't be. Discover hand-picked anime art, fantasy worlds and mesmerizing animated loops.</p>
-  <div class="hero-buttons"><a class="primary-button" href="#wallpapers">Explore wallpapers <span>↗</span></a><a class="secondary-button" href="#animated"><span class="play-sign">▶</span> Watch live wallpapers</a></div>
-  <div class="hero-proof"><span class="proof-stars">✦ ✦ ✦</span><span><strong>Made for fans.</strong> Powered by open art.</span></div>
-  </div>
-  <div class="hero-tag"><span class="tag-dot"></span> CURATED ANIME ART <span>001 / ∞</span></div>
- </div>
+<div class="hero-backdrop"><iframe title="Featured animated anime wallpaper on GIPHY" src="https://giphy.com/embed/qQC8JPGoSvNWZ4GI26" loading="eager" allowfullscreen></iframe></div><div class="hero-fade"></div>
+<div class="hero-inner"><div class="hero-copy">
+<div class="eyebrow"><span class="eyebrow-line"></span> 100% ANIMATED ANIME <span class="asterisk">✦</span></div>
+<h1>Your anime.<br><em>Always moving<span>.</span></em></h1>
+<p>Gojo. Tanjiro. Itachi. Ichigo. Explore looping anime GIFs from real creators — all in one fan-made gallery. No AI-generated or static wallpapers.</p>
+<div class="hero-buttons"><a class="primary-button" href="#wallpapers">Explore GIF wallpapers <span>↗</span></a><button class="secondary-button" id="surpriseHero"><span class="play-sign">✦</span> Surprise me</button></div>
+<div class="hero-proof"><span class="proof-stars">● LIVE</span><span><strong id="heroCount">Loading GIFs</strong> · GIPHY embeds with creator attribution</span></div>
+</div><div class="hero-tag"><span class="tag-dot"></span> LOOPING ANIME <span>GIF / LIVE</span></div></div>
 </section>
-<section class="features-bar" aria-label="Highlights"><div><span>✧</span> Hand-picked artworks</div><span class="features-divider"></span><div><span>⇩</span> Creator-licensed downloads</div><span class="features-divider"></span><div><span>▶</span> Animated GIF gallery</div><span class="features-divider"></span><div><span>♡</span> Save your favorites</div></section>
+<section class="features-bar" aria-label="Gallery features">
+<div><span>▶</span> Animated anime only</div><span class="features-divider"></span>
+<div><span>⌕</span> Browse by series</div><span class="features-divider"></span>
+<div><span>♡</span> Save your favorites</div><span class="features-divider"></span>
+<div><span>✧</span> Real GIPHY creators</div>
+</section>
 <section class="catalog-section" id="wallpapers">
- <div class="section-heading"><div><div class="overline">THE COLLECTION <span>↗</span></div><h2>Curated for <em>your screen.</em></h2><p>Original work by independent artists, plus anime GIFs embedded from GIPHY.</p></div><div class="header-counter"><span class="count-pulse"></span><strong id="totalCount">Loading</strong><span>artworks to explore</span></div></div>
- <div class="search-row"><label class="search-field" for="searchInput"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg><input id="searchInput" placeholder="Search art, artists, moods..." autocomplete="off" type="search"><span class="shortcut">/</span></label><div class="view-switch" aria-label="Gallery type"><button class="type-tab active" data-type="all">All artwork</button><button class="type-tab" data-type="image">Still art</button><button class="type-tab" data-type="gif">Live & GIFs</button></div><select id="sortSelect" aria-label="Sort wallpapers"><option value="featured">Featured first</option><option value="name">Name A–Z</option><option value="newest">Recently added</option></select></div>
- <div class="category-bar" id="categoryBar" aria-label="Categories"></div>
- <div class="gallery-top"><div><strong id="galleryHeading">Explore the collection</strong><span id="resultCount">Loading wallpapers...</span></div><button id="clearFilters" class="clear-filters" hidden>Clear filters ×</button></div>
- <div id="galleryGrid" class="gallery-grid" aria-live="polite"><div class="loading-gallery"><div class="spinner"></div> Loading the collection...</div></div>
- <div id="emptyState" class="empty-state" hidden><span>✦</span><h3>No art in this universe… yet.</h3><p>Try a different search, or switch back to all artworks.</p><button id="emptyReset" class="primary-button">Show everything ↗</button></div>
- <div class="load-area"><button id="loadMore" class="load-button" hidden>Show more <span>↓</span></button></div>
+<div class="section-heading"><div><div class="overline">THE LIVE COLLECTION <span>↗</span></div><h2>Never a <em>still moment.</em></h2><p>Jujutsu Kaisen, Demon Slayer, Naruto, Bleach and more. Every preview is animated.</p></div>
+<div class="header-counter"><span class="count-pulse"></span><strong id="totalCount">...</strong><span>GIFs and loops</span></div></div>
+<div class="search-row">
+<label class="search-field" for="searchInput"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg><input id="searchInput" placeholder="Search Gojo, Rengoku, Naruto..." autocomplete="off" type="search"><span class="shortcut">/</span></label>
+<div class="view-switch" aria-label="Show GIFs"><button class="type-tab active" data-filter="all" aria-pressed="true">All GIFs</button><button class="type-tab" data-filter="featured" aria-pressed="false">✦ Featured</button><button class="type-tab" data-filter="saved" aria-pressed="false">♡ Saved</button><button class="type-tab" id="downloadableTab" data-filter="downloadable" aria-pressed="false" hidden>↓ Downloads</button></div>
+<select id="sortSelect" aria-label="Sort GIFs"><option value="featured">Featured first</option><option value="name">Name A–Z</option><option value="newest">Recently added</option></select>
+</div>
+<div class="category-bar" id="categoryBar" aria-label="Anime series filters"></div>
+<div class="gallery-top"><div><strong id="galleryHeading">All animated wallpapers</strong><span id="resultCount">Loading...</span></div><button id="clearFilters" class="clear-filters" hidden>Clear filters ×</button></div>
+<div id="galleryGrid" class="gallery-grid" aria-live="polite"><div class="loading-gallery"><div class="spinner"></div> Loading animated anime wallpapers...</div></div>
+<div id="emptyState" class="empty-state" hidden><span>✦</span><h3>No GIFs found.</h3><p>Try a different anime series or search term.</p><button id="emptyReset" class="primary-button">Show all GIFs ↗</button></div>
+<div class="load-area"><button id="loadMore" class="load-button" hidden>Load more loops <span>↓</span></button></div>
 </section>
-<section class="live-feature" id="animated"><div class="live-copy"><span class="overline">MAKE YOUR SCREEN MOVE</span><h2>A little motion.<br><em>A lot of magic.</em></h2><p>Scenery that breathes, anime moments that loop. Watch right here without leaving the gallery.</p><button class="primary-button" id="viewLive">Explore live collection ↗</button><small>GIPHY media remains hosted by its original service.</small></div><div class="live-art"><iframe loading="lazy" title="Anime sakura animation by animatr on GIPHY" src="https://giphy.com/embed/PoHVT5kEyNWcN0CWNj" allowfullscreen></iframe><span class="live-stamp">◉ LIVE PREVIEW</span></div></section>
-<section class="info-section"><div class="info-mark">✳</div><div><span class="overline">OPEN SOURCE. ARTIST FIRST.</span><h2>Made for the community, not a paywall.</h2><p>AnimeWallora is an independent project. Downloadable art uses licenses permitting redistribution and includes artist credit and license links. Other GIFs are embedded from GIPHY and are not mirrored or offered for download.</p></div><a href="https://github.com/eliron8565/Wallpapers" target="_blank" rel="noopener noreferrer">View source ↗</a></section>
+<section class="live-feature" id="animated">
+<div class="live-copy"><span class="overline">WHY ANIMATED?</span><h2>Not just a picture.<br><em>A living scene.</em></h2><p>Browse GIF animations in the gallery, tap any card for a larger preview and save the ones you love. Animated GIFs are embedded using GIPHY’s player.</p><button class="primary-button" id="viewLive">Explore all GIFs ↗</button><small>GIPHY embeds are viewable here. Download availability depends on each creator's permissions.</small></div>
+<div class="live-art"><iframe loading="lazy" title="Rengoku animation on GIPHY" src="https://giphy.com/embed/U1rKCszzgEuVzMAVX0" allowfullscreen></iframe><span class="live-stamp">◉ LIVE PREVIEW</span></div>
+</section>
+<section class="info-section"><div class="info-mark">✳</div><div><span class="overline">OPEN SOURCE. ANIME FAN PROJECT.</span><h2>Real animation. Credit to the creators.</h2><p>All displayed GIFs are embedded directly from GIPHY, with links to their original creators. Videos from MoeWalls and Wallper are not copied or redistributed without permission. The site's source code is open source; the anime and animated media remain the rights holders' content.</p></div><a href="https://github.com/eliron8565/Wallpapers" target="_blank" rel="noopener noreferrer">View source ↗</a></section>
 </main>
-<footer class="site-footer"><div class="footer-top"><a class="logo" href="#top"><span class="logo-symbol">✦</span><span>anime<span>wallora</span><i>.</i></span></a><p>For the worlds we love. For the artists who make them.</p></div><div class="footer-bottom"><span>© <span id="year"></span> AnimeWallora. Open-source website.</span><div class="footer-links"><a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a><a href="https://giphy.com/" target="_blank" rel="noopener noreferrer">Powered by GIPHY</a><a href="https://github.com/eliron8565/Wallpapers" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></footer>
-<div id="viewer" class="viewer" hidden role="dialog" aria-modal="true" aria-label="Wallpaper preview"><div class="viewer-scrim" id="viewerScrim"></div><div class="viewer-box"><button class="viewer-close" id="viewerClose" aria-label="Close preview">×</button><div class="viewer-art" id="viewerArt"></div><div class="viewer-side"><div><span class="overline" id="viewerCategory"></span><h2 id="viewerTitle"></h2><p id="viewerDescription"></p><div class="meta-line"><span>Artist</span><strong id="viewerArtist"></strong></div><div class="meta-line"><span>License</span><a id="viewerLicense" target="_blank" rel="noopener noreferrer"></a></div><div class="meta-line"><span>Source</span><a id="viewerSource" target="_blank" rel="noopener noreferrer">View original ↗</a></div></div><div class="viewer-actions"><button id="viewerFavorite" class="outline-button">♡ Save</button><button id="viewerDownload" class="primary-button">↓ Download wallpaper</button><small id="viewerHint"></small></div></div></div></div>
+<footer class="site-footer"><div class="footer-top"><a class="logo" href="#top"><span class="logo-symbol">✦</span><span>anime<span>wallora</span><i>.</i></span></a><p>Anime in motion. Made for fans.</p></div><div class="footer-bottom"><span>© <span id="year"></span> AnimeWallora · Open-source website, third-party animations.</span><div class="footer-links"><a href="https://giphy.com/explore/anime-4k" target="_blank" rel="noopener noreferrer">Powered by GIPHY</a><a href="https://github.com/eliron8565/Wallpapers" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></footer>
+<div id="viewer" class="viewer" hidden role="dialog" aria-modal="true" aria-labelledby="viewerTitle"><div class="viewer-scrim" id="viewerScrim"></div><div class="viewer-box"><button class="viewer-close" id="viewerClose" aria-label="Close preview">×</button><div class="viewer-art" id="viewerArt"></div><div class="viewer-side"><div><span class="overline" id="viewerCategory"></span><h2 id="viewerTitle"></h2><p id="viewerDescription"></p><div class="meta-line"><span>Creator / GIPHY uploader</span><strong id="viewerArtist"></strong></div><div class="meta-line"><span>Source</span><a id="viewerSource" target="_blank" rel="noopener noreferrer">Original GIF ↗</a></div></div><div class="viewer-actions"><button id="viewerFavorite" class="outline-button">♡ Save to favorites</button><a id="viewerDownload" class="primary-button" download hidden>↓ Download</a><small id="viewerHint">GIPHY content is streamed from the source. Downloads require the creator's permission.</small></div></div></div></div>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body></html>
