@@ -3,6 +3,7 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - "data/wallpapers.json"
       - "scripts/sync-commons-r2.py"
       - ".github/workflows/sync-commons-r2.yml"
 
