@@ -1,0 +1,47 @@
+name: Sync approved Commons anime art to R2
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/sync-commons-r2.py"
+      - ".github/workflows/sync-commons-r2.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: animewallora-commons-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify configuration
+        run: |
+          test -n "$R2_ACCESS_KEY_ID" && test -n "$R2_SECRET_ACCESS_KEY" && test -n "$R2_ACCOUNT_ID" && test -n "$R2_PUBLIC_URL"
+          python -m py_compile scripts/sync-commons-r2.py
+      - name: Sync creator-licensed files to Cloudflare R2
+        run: python scripts/sync-commons-r2.py
+      - name: Validate and commit catalog with new R2 URLs
+        run: |
+          python scripts/validate-catalog.py
+          if ! git diff --quiet -- data/wallpapers.json; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add data/wallpapers.json
+            git commit -m "Sync approved anime art to R2 media hosting"
+            git push
+          fi
