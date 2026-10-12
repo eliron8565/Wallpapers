@@ -1,0 +1,64 @@
+name: Submit a licensed anime wallpaper
+description: Suggest a creator-approved anime wallpaper or animated clip for AnimeWallora
+title: "[Wallpaper] "
+labels: ["wallpaper-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping expand AnimeWallora! We welcome original manga/anime artwork, official creator-approved releases, and Creative Commons licensed media. A link to GIPHY alone is suitable for an embed suggestion; it does **not** authorize us to download and mirror the GIF.
+  - type: input
+    id: title
+    attributes:
+      label: Artwork title
+      placeholder: Name of the wallpaper
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Original source / artist page
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: artist
+    attributes:
+      label: Artist / rights holder
+    validations:
+      required: true
+  - type: dropdown
+    id: permission
+    attributes:
+      label: Permission to redistribute
+      options:
+        - Creative Commons / public-domain license
+        - I am the artist and authorize sharing
+        - Written permission from the rights holder
+        - GIPHY embed only (no file rehosting)
+    validations:
+      required: true
+  - type: textarea
+    id: proof
+    attributes:
+      label: Exact license or evidence of permission
+      description: Include the license URL or public creator statement. Do not paste private passwords or tokens.
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: Preferred format
+      options:
+        - Image / wallpaper
+        - Animated GIF
+        - MP4 / WEBM loop
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights check
+      options:
+        - label: I understand that credit alone does not grant copyright permission.
+          required: true
