@@ -86,9 +86,9 @@ def sync(item, endpoint, public):
         destination = Path(tmp) / ("download" + ext)
         size = get_file(meta["url"], destination)
         raw = destination.read_bytes()
-        if ext in (".jpg", ".jpeg") and not raw.startswith(b"\\xff\\xd8\\xff"):
+        if ext in (".jpg", ".jpeg") and not raw.startswith(b"\xff\xd8\xff"):
             raise ValueError("Invalid JPEG signature")
-        if ext == ".png" and not raw.startswith(b"\\x89PNG\\r\\n\\x1a\\n"):
+        if ext == ".png" and not raw.startswith(b"\x89PNG\r\n\x1a\n"):
             raise ValueError("Invalid PNG signature")
         if ext == ".gif" and not raw.startswith((b"GIF87a", b"GIF89a")):
             raise ValueError("Invalid GIF signature")
