@@ -101,9 +101,16 @@ def sync(item, endpoint, public):
         subprocess.run(["aws", "s3", "cp", str(destination), f"s3://animewallora-media/{key}",
                        "--endpoint-url", endpoint, "--content-type", MEDIA_TYPES[ext],
                        "--no-progress", "--only-show-errors"], env=env, check=True)
+        attachment_key = "downloads/" + key
+        safe_name = "AnimeWallora-" + item.get("id", "wallpaper") + ext
+        subprocess.run(["aws", "s3", "cp", str(destination),
+                       f"s3://animewallora-media/{attachment_key}",
+                       "--endpoint-url", endpoint, "--content-type", MEDIA_TYPES[ext],
+                       "--content-disposition", f'attachment; filename="{safe_name}"',
+                       "--no-progress", "--only-show-errors"], env=env, check=True)
     item["url"] = object_url
     item["thumbnail"] = object_url
-    item["downloadUrl"] = object_url
+    item["downloadUrl"] = public + "/" + attachment_key
     item["hostedOn"] = "Cloudflare R2"
     print(f"Uploaded {item['title']} ({size // 1024} KiB), confirmed license: {actual}")
 
@@ -120,7 +127,7 @@ def main():
     count = 0
     failures = []
     for item in items:
-        if not item.get("filename") or item.get("hostedOn") == "Cloudflare R2":
+        if not item.get("filename") or (item.get("hostedOn") == "Cloudflare R2" and "/downloads/" in item.get("downloadUrl", "")):
             continue
         try:
             sync(item, endpoint, public)
