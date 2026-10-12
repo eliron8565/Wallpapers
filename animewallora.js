@@ -1,64 +1,250 @@
 "use strict";
-const $=s=>document.querySelector(s);
-const $$=s=>[...document.querySelectorAll(s)];
-const gifs=[
-["Sakura Afterglow","PoHVT5kEyNWcN0CWNj","Sakura"],
-["Rooftop Dream","2SYqgPxMm2kbVe3y02","Scenery"],
-["Pink Petals","ONGUmqZCalAKO8PH7C","Sakura"],
-["Purple Mood","4YZNYcTybcYTnROykG","Aesthetic"],
-["Evening Sky","RcRYrpC1pBvIB0icDm","Scenery"],
-["Quiet Rain","1Ye7CiFf0OvUaJ82A2","Scenery"],
-["Study Atmosphere","4N3lQozOH2STZdDsOe","Aesthetic"],
-["City Lights","2seKKLp1n0sEeJLYTK","City"],
-["Anime Moments","2tOUQgIShjXIHksATn","Aesthetic"],
-["Skyline Daydream","dn12b0TGWufPpdoSTv","City"],
-["Shimmering Night","cC9j39MDoWk8ioRO7S","Aesthetic"],
-["Slow Evening","orUBsDjlD2rzsz6pPK","Scenery"],
-["Forest Spirit","8qFQA9iD8FS1Txuv9N","Fantasy"],
-["Blooming Flower","7TcdqOgF3PwEvlciVw","Sakura"],
-["Anime Atmosphere","8cvfAbrx8KyXWTekb5","Aesthetic"],
-["Night Wonder","7J4wJJ7rMWHYG9wqW5","Aesthetic"],
-["Tanjiro & Nezuko","ggR8oaGvhUbtndQSR4","Demon Slayer","Crunchyroll"],
-["Demon Slayer — Water Style","efCdWBE19bR26ScE02","Demon Slayer","Crunchyroll"],
-["Demon Slayer — Breathing","gIBzKPERLHF6mvU7Ea","Demon Slayer","Crunchyroll"],
-["Nezuko — Demon Slayer","LMuU3xRkGus3SYqaqD","Demon Slayer","Crunchyroll"],
-["Naruto — Shinobi","vJ7IyeRj0e1DWZvRZ4","Naruto","Xbox"],
-["Naruto — Ultimate Ninja","6zVuKUmZY206RW6OHS","Naruto","Xbox"],
-["Naruto — VIZ","1xm1Gm8Scnp33n0LEj","Naruto","VIZ"],
-["Bleach — Byakuya","ukto3TrQS9hIDoDFHF","Bleach","VIZ"],
-["Jujutsu Kaisen — Domain","mi5RMEhI2Ks9AbM9Iu","Jujutsu Kaisen","mesigugu"]
-].map(([title,giphyId,category,creator],i)=>({id:"gif-"+(i+1),title,giphyId,category,creator:creator||"animatr",source:"https://giphy.com/gifs/"+giphyId,license:"GIPHY embed",type:"gif",orientation:"landscape",description:"Anime animation, embedded from its original GIPHY creator."}));
-let catalog=[],kind="all",cat="All",query="",sort="featured",visible=16,favoritesMode=false,selected=null;
-const likes=new Set();try{JSON.parse(localStorage.getItem("animewallora-favorites")||"[]").forEach(x=>likes.add(x))}catch{}
-function el(tag,className,text){const x=document.createElement(tag);if(className)x.className=className;if(text!==undefined)x.textContent=text;return x}
-function safeLink(url){try{let x=new URL(url,location.href);return x.protocol==="https:"?x.href:null}catch{return null}}
-function saveLikes(){try{localStorage.setItem("animewallora-favorites",JSON.stringify([...likes]))}catch{}}
-function toast(message){let node=$("#toast");node.textContent=message;node.classList.add("show");clearTimeout(toast.timeout);toast.timeout=setTimeout(()=>node.classList.remove("show"),2500)}
-function allItems(){return [...catalog,...gifs]}
-function matches(item){if(favoritesMode&&!likes.has(item.id))return false;if(kind!=="all"&&item.type!==kind)return false;if(cat!=="All"&&item.category!==cat)return false;if(query&&!([item.title,item.category,item.creator,item.description].join(" ").toLowerCase().includes(query)))return false;return true}
-function filtered(){const items=allItems().filter(matches);if(sort==="name")items.sort((a,b)=>a.title.localeCompare(b.title));else if(sort==="newest")items.reverse();return items}
-function updateFavorites(){const count=$("#favoriteCount");count.textContent=likes.size;count.style.color=likes.size?"#f8a2bd":"";$("#favoritesNav").title=favoritesMode?"Show all artworks":"View favorites"}
-function toggleLike(item){likes.has(item.id)?likes.delete(item.id):likes.add(item.id);saveLikes();updateFavorites();toast(likes.has(item.id)?"Added to favorites":"Removed from favorites");render();if(selected&&selected.id===item.id)updateViewerLike(item)}
-function thumbUrl(item){return safeLink(item.thumbnail)||safeLink(item.url)||""}
-function imageCard(item){const card=el("article","wallpaper-card");const media=el("div","card-media");const img=el("img");img.alt=item.title+" — art by "+item.creator;img.src=thumbUrl(item);img.loading="lazy";img.decoding="async";img.onerror=()=>{if(img.src!==item.url)img.src=item.url};media.append(img);const activate=el("button","media-activate","Preview "+item.title);activate.setAttribute("aria-label","Preview "+item.title);activate.onclick=()=>openViewer(item);media.append(activate);const chip=el("span","media-chip","✦ "+(item.orientation==="portrait"?"PORTRAIT":"WALLPAPER"));media.append(chip);const heart=el("button","heart"+(likes.has(item.id)?" liked":""),likes.has(item.id)?"♥":"♡");heart.setAttribute("aria-label","Toggle favorite for "+item.title);heart.onclick=()=>toggleLike(item);media.append(heart);const body=el("div","card-body");const h=el("h3","",item.title);const p=el("p","",item.creator+" · "+(item.category||"Artwork"));const footer=el("div","card-footer");const license=el("span","license",item.license||"Licensed");const button=el("button","","↓ Download");button.onclick=()=>download(item);footer.append(license,button);body.append(h,p,footer);card.append(media,body);return card}
-function gifCard(item){const card=el("article","wallpaper-card");const media=el("div","card-media");const iframe=el("iframe");iframe.loading="lazy";iframe.title=item.title+" animated GIF by "+item.creator;iframe.src="https://giphy.com/embed/"+item.giphyId;iframe.allowFullscreen=true;media.append(iframe);media.append(el("span","media-chip","● ANIMATED"));const heart=el("button","heart"+(likes.has(item.id)?" liked":""),likes.has(item.id)?"♥":"♡");heart.setAttribute("aria-label","Toggle favorite for "+item.title);heart.onclick=()=>toggleLike(item);media.append(heart);const body=el("div","card-body");body.append(el("h3","",item.title),el("p","","By "+item.creator+" · GIF loop"));const foot=el("div","card-footer");foot.append(el("span","license","Powered by GIPHY"));const button=el("button","","⤢ Preview");button.onclick=()=>openViewer(item);foot.append(button);body.append(foot);card.append(media,body);return card}
-function categories(){const cats=["All",...new Set(allItems().filter(i=>kind==="all"||i.type===kind).map(i=>i.category).filter(Boolean))];if(!cats.includes(cat))cat="All";$("#categoryBar").replaceChildren(...cats.map(name=>{const b=el("button","category"+(cat===name?" active":""),(name==="All"?"✦  ":"")+name);b.setAttribute("aria-pressed",String(cat===name));b.onclick=()=>{cat=name;visible=16;render()};return b}))}
-function render(){categories();updateFavorites();const items=filtered();$("#totalCount").textContent=String(allItems().length).padStart(2,"0");$("#resultCount").textContent=items.length+" result"+(items.length===1?"":"s");$("#galleryHeading").textContent=favoritesMode?"Your saved collection":kind==="gif"?"Anime in motion":kind==="image"?"Original illustrated art":"Explore the collection";$$(".type-tab").forEach(b=>{b.classList.toggle("active",b.dataset.type===kind);b.setAttribute("aria-pressed",String(b.dataset.type===kind))});$("#galleryGrid").replaceChildren(...items.slice(0,visible).map(item=>item.type==="gif"?gifCard(item):imageCard(item)));$("#emptyState").hidden=items.length!==0;$("#loadMore").hidden=items.length<=visible;$("#clearFilters").hidden=kind==="all"&&cat==="All"&&!query&&!favoritesMode;$("#favoritesNav").setAttribute("aria-pressed",String(favoritesMode))}
-function reset(){kind="all";cat="All";query="";visible=16;sort="featured";favoritesMode=false;$("#searchInput").value="";$("#sortSelect").value="featured";render()}
-function updateViewerLike(item){$("#viewerFavorite").textContent=likes.has(item.id)?"♥ Saved to favorites":"♡ Save to favorites"}
-function openViewer(item){selected=item;$("#viewerCategory").textContent=(item.category||"Art")+" / "+(item.type==="gif"?"ANIMATED":"WALLPAPER");$("#viewerTitle").textContent=item.title;$("#viewerDescription").textContent=item.description||"Curated original anime artwork.";$("#viewerArtist").textContent=item.creator||"Artist";const license=$("#viewerLicense");license.textContent=item.license||"GIPHY embed";license.href=item.licenseUrl||item.source||"https://giphy.com";const src=$("#viewerSource");src.href=item.source||"https://giphy.com";src.textContent=item.type==="gif"?"View GIPHY attribution ↗":"View original & credit ↗";$("#viewerArt").replaceChildren();if(item.type==="gif"){const frame=el("iframe");frame.src="https://giphy.com/embed/"+item.giphyId;frame.title=item.title+" GIF on GIPHY";frame.allowFullscreen=true;$("#viewerArt").append(frame)}else{const img=el("img");img.src=item.url;img.alt=item.title;$("#viewerArt").append(img)}$("#viewerDownload").hidden=item.type==="gif";$("#viewerHint").textContent=item.type==="gif"?"Animated media is embedded via GIPHY and is not mirrored or offered as a download.":"Artist credit and license details are included above. Download uses the original file.";updateViewerLike(item);$("#viewerFavorite").onclick=()=>toggleLike(item);$("#viewerDownload").onclick=()=>download(item);$("#viewer").hidden=false;document.body.style.overflow="hidden";$("#viewerClose").focus()}
-function closeViewer(){$("#viewer").hidden=true;document.body.style.overflow="";selected=null}
-async function download(item){if(item.type==="gif")return;const url=safeLink(item.downloadUrl||item.url);if(!url)return toast("Download URL unavailable");const ext=(item.filename||item.url).split(".").pop().split("?")[0].toLowerCase();const filename="AnimeWallora-"+item.title.toLowerCase().replace(/[^a-z0-9]+/g,"-")+"."+(["png","jpg","jpeg","webp","gif"].includes(ext)?ext:"jpg");if(item.downloadUrl&&item.downloadUrl.includes("/downloads/")){const a=el("a");a.href=url;a.download=filename;a.rel="noopener";document.body.append(a);a.click();a.remove();toast("Starting download: "+item.title);return;}try{const response=await fetch(url);if(!response.ok)throw Error("Download failed");const blob=await response.blob();const objectURL=URL.createObjectURL(blob);const anchor=el("a");anchor.href=objectURL;anchor.download=filename;document.body.append(anchor);anchor.click();anchor.remove();setTimeout(()=>URL.revokeObjectURL(objectURL),30000);toast("Downloading "+item.title)}catch(e){window.open(url,"_blank","noopener,noreferrer");toast(item.downloadUrl&&item.downloadUrl.includes("/downloads/")?"Your wallpaper download is starting.":"Open the image and save it from there.")}}
-function setKind(type){kind=type;cat="All";favoritesMode=false;visible=16;render();$("#wallpapers").scrollIntoView({behavior:"smooth"})}
-async function init(){try{const response=await fetch("./data/wallpapers.json?v=2",{cache:"no-store"});if(!response.ok)throw Error("Catalog request failed");const data=await response.json();if(!Array.isArray(data))throw Error("Invalid catalog");catalog=data.filter(x=>x&&x.title&&safeLink(x.url)&&x.creator&&x.license&&x.permission&&x.type==="image").map((item,i)=>({category:"Fantasy",orientation:"landscape",id:"art-"+i,...item}));if(catalog[0]&&safeLink(catalog[0].url))$(".hero-backdrop").style.backgroundImage="url("+JSON.stringify(catalog[0].url)+")";}catch(e){console.error(e);toast("Artwork catalog could not load. Animated GIFs are still available.")}render()}
-$$(".type-tab").forEach(b=>b.addEventListener("click",()=>setKind(b.dataset.type)));
-$("#searchInput").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();visible=16;render()});
-$("#sortSelect").addEventListener("change",e=>{sort=e.target.value;render()});
-$("#clearFilters").onclick=reset;$("#emptyReset").onclick=reset;
-$("#headerSearch").onclick=()=>{$("#wallpapers").scrollIntoView({behavior:"smooth"});$("#searchInput").focus({preventScroll:true})};
-$("#favoritesNav").onclick=()=>{favoritesMode=!favoritesMode;kind="all";cat="All";visible=16;render();$("#wallpapers").scrollIntoView({behavior:"smooth"})};
-$("#loadMore").onclick=()=>{visible+=16;render()};
-$("#viewLive").onclick=()=>setKind("gif");
-$("#viewerClose").onclick=closeViewer;$("#viewerScrim").onclick=closeViewer;
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!$("#viewer").hidden)closeViewer();if(e.key==="/"&&e.target.tagName!=="INPUT"&&$("#viewer").hidden){e.preventDefault();$("#searchInput").focus()}});
-$("#year").textContent=new Date().getFullYear();init();
+
+const $ = (selector) => document.querySelector(selector);
+const $$ = (selector) => Array.from(document.querySelectorAll(selector));
+const state = { gifs: [], hosted: [], series: "All", mode: "all", search: "", sort: "featured", pageSize: 12, visible: 12, selected: null, lastFocus: null };
+const favorites = new Set();
+try { for (const id of JSON.parse(localStorage.getItem("animewallora-favorites") || "[]")) favorites.add(String(id)); } catch (_) {}
+
+const e = (tag, className = "", text) => {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined) node.textContent = text;
+  return node;
+};
+const urlCheck = (value) => {
+  try {
+    const result = new URL(value);
+    return result.protocol === "https:" ? result.href : null;
+  } catch (_) { return null; }
+};
+const validGiphy = (id) => /^[A-Za-z0-9]{12,32}$/.test(id);
+const embedURL = (item) => "https://giphy.com/embed/" + item.giphyId;
+const allItems = () => [...state.gifs, ...state.hosted];
+const isHosted = (item) => item.type === "hosted-gif" || item.type === "hosted-video";
+const allowedDownload = (item) => isHosted(item) && Boolean(urlCheck(item.downloadUrl || item.url));
+
+function showToast(message) {
+  const toast = $("#toast");
+  toast.textContent = message;
+  toast.classList.add("show");
+  clearTimeout(showToast.timeout);
+  showToast.timeout = setTimeout(() => toast.classList.remove("show"), 2600);
+}
+
+function updateFavoriteCounter() {
+  const count = $("#favoriteCount");
+  count.textContent = String(favorites.size);
+  count.style.color = favorites.size ? "#ffa7bf" : "";
+  $("#favoritesNav").setAttribute("aria-pressed", String(state.mode === "saved"));
+}
+
+function toggleFavorite(item) {
+  if (favorites.has(item.id)) favorites.delete(item.id);
+  else favorites.add(item.id);
+  try { localStorage.setItem("animewallora-favorites", JSON.stringify([...favorites])); } catch (_) {}
+  showToast(favorites.has(item.id) ? "Saved to your favorites" : "Removed from favorites");
+  render();
+  if (state.selected && state.selected.id === item.id) updateViewerFavorite(item);
+}
+
+function filterItems() {
+  const needle = state.search;
+  let results = allItems().filter((item) => {
+    if (state.mode === "saved" && !favorites.has(item.id)) return false;
+    if (state.mode === "featured" && !item.featured) return false;
+    if (state.mode === "downloadable" && !allowedDownload(item)) return false;
+    if (state.series !== "All" && item.series !== state.series) return false;
+    if (needle && ![item.title, item.series, item.character, item.creator, ...(item.tags || [])].join(" ").toLowerCase().includes(needle)) return false;
+    return true;
+  });
+  if (state.sort === "name") results = results.sort((a, b) => a.title.localeCompare(b.title));
+  else if (state.sort === "newest") results = results.reverse();
+  else results = results.sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)));
+  return results;
+}
+
+function renderCategories() {
+  const names = ["All", "Jujutsu Kaisen", "Demon Slayer", "Naruto", "Bleach", "One Piece", "Dragon Ball", "Chainsaw Man", "Attack on Titan", ...state.hosted.map(x => x.series)];
+  const unique = [...new Set(names)].filter(s => s === "All" || allItems().some(x => x.series === s));
+  if (!unique.includes(state.series)) state.series = "All";
+  const holder = $("#categoryBar");
+  holder.replaceChildren();
+  for (const name of unique) {
+    const count = name === "All" ? allItems().length : allItems().filter(x => x.series === name).length;
+    const button = e("button", "category" + (state.series === name ? " active" : ""), name + "  " + count);
+    button.setAttribute("aria-pressed", String(state.series === name));
+    button.onclick = () => { state.series = name; state.visible = state.pageSize; render(); };
+    holder.append(button);
+  }
+}
+
+function makeMedia(item, className = "") {
+  if (item.type === "giphy") {
+    const frame = e("iframe", className);
+    frame.src = embedURL(item);
+    frame.title = item.title + " · GIPHY animated embed";
+    frame.loading = "lazy";
+    frame.allowFullscreen = true;
+    frame.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
+    return frame;
+  }
+  const safeURL = urlCheck(item.url);
+  if (item.type === "hosted-video") {
+    const video = e("video", className);
+    video.src = safeURL;
+    video.autoplay = true;
+    video.loop = true;
+    video.muted = true;
+    video.playsInline = true;
+    video.preload = "metadata";
+    video.setAttribute("aria-label", item.title);
+    return video;
+  }
+  const image = e("img", className);
+  image.loading = "lazy";
+  image.alt = item.title + " animated GIF";
+  image.src = safeURL;
+  return image;
+}
+
+function gifCard(item) {
+  const card = e("article", "wallpaper-card gif-only-card");
+  const media = e("div", "card-media");
+  media.append(makeMedia(item));
+  media.append(e("span", "media-chip", isHosted(item) ? "● DOWNLOADABLE LOOP" : "● ANIMATED GIF"));
+  const heart = e("button", "heart" + (favorites.has(item.id) ? " liked" : ""), favorites.has(item.id) ? "♥" : "♡");
+  heart.type = "button";
+  heart.setAttribute("aria-label", (favorites.has(item.id) ? "Remove" : "Add") + " favorite: " + item.title);
+  heart.onclick = () => toggleFavorite(item);
+  media.append(heart);
+  const body = e("div", "card-body");
+  body.append(e("h3", "", item.title), e("p", "", item.series + " · " + (item.character || item.creator)));
+  const footer = e("div", "card-footer");
+  footer.append(e("span", "license", isHosted(item) ? "Creator-approved media" : "Embedded via GIPHY"));
+  const button = e("button", "", isHosted(item) ? "⤢ Preview & download" : "⤢ Full preview");
+  button.type = "button";
+  button.onclick = () => openViewer(item);
+  footer.append(button);
+  body.append(footer);
+  card.append(media, body);
+  return card;
+}
+
+function render() {
+  renderCategories();
+  updateFavoriteCounter();
+  const results = filterItems();
+  $("#totalCount").textContent = String(allItems().length).padStart(2, "0");
+  $("#heroCount").textContent = allItems().length + " animated wallpapers";
+  $("#resultCount").textContent = results.length + (results.length === 1 ? " GIF / loop" : " GIFs / loops");
+  $("#galleryHeading").textContent = state.mode === "saved" ? "Your saved anime GIFs" : state.mode === "featured" ? "Featured animated wallpapers" : state.mode === "downloadable" ? "Downloadable animated wallpapers" : state.series !== "All" ? state.series + " GIFs" : "All animated wallpapers";
+  $$(".type-tab").forEach(b => {
+    b.classList.toggle("active", b.dataset.filter === state.mode);
+    b.setAttribute("aria-pressed", String(b.dataset.filter === state.mode));
+  });
+  $("#downloadableTab").hidden = !state.hosted.some(allowedDownload);
+  $("#galleryGrid").replaceChildren(...results.slice(0, state.visible).map(gifCard));
+  $("#emptyState").hidden = results.length !== 0;
+  $("#loadMore").hidden = results.length <= state.visible;
+  $("#clearFilters").hidden = state.mode === "all" && state.series === "All" && !state.search;
+}
+
+function showMode(next) {
+  state.mode = next;
+  state.visible = state.pageSize;
+  render();
+  $("#wallpapers").scrollIntoView({ behavior: "smooth" });
+}
+function reset() {
+  state.series = "All"; state.mode = "all"; state.search = ""; state.sort = "featured"; state.visible = state.pageSize;
+  $("#searchInput").value = ""; $("#sortSelect").value = "featured";
+  render();
+}
+
+function updateViewerFavorite(item) {
+  $("#viewerFavorite").textContent = favorites.has(item.id) ? "♥ Saved to favorites" : "♡ Save to favorites";
+}
+
+function openViewer(item) {
+  state.lastFocus = document.activeElement;
+  state.selected = item;
+  $("#viewerTitle").textContent = item.title;
+  $("#viewerCategory").textContent = item.series + " / ANIMATED";
+  $("#viewerDescription").textContent = (item.character ? "Featuring " + item.character + ". " : "") + (isHosted(item) ? "Animated wallpaper hosted by AnimeWallora with redistribution permission." : "Animated GIF viewed through its original GIPHY embed.");
+  $("#viewerArtist").textContent = item.creator;
+  const source = $("#viewerSource");
+  source.href = urlCheck(item.source) || "https://giphy.com";
+  source.textContent = isHosted(item) ? "View creator & license ↗" : "GIPHY creator & original GIF ↗";
+  $("#viewerArt").replaceChildren(makeMedia(item));
+  const dl = $("#viewerDownload");
+  dl.hidden = !allowedDownload(item);
+  if (allowedDownload(item)) {
+    dl.href = urlCheck(item.downloadUrl || item.url);
+    dl.removeAttribute("download");
+  } else dl.removeAttribute("href");
+  $("#viewerHint").textContent = allowedDownload(item) ? "This creator-approved loop is available as a direct download." : "This GIF is played from GIPHY and is not copied or downloadable directly from this website.";
+  updateViewerFavorite(item);
+  $("#viewerFavorite").onclick = () => toggleFavorite(item);
+  $("#viewer").hidden = false;
+  document.body.style.overflow = "hidden";
+  $("#viewerClose").focus();
+}
+function closeViewer() {
+  $("#viewer").hidden = true;
+  $("#viewerArt").replaceChildren();
+  document.body.style.overflow = "";
+  state.selected = null;
+  if (state.lastFocus && state.lastFocus.isConnected && typeof state.lastFocus.focus === "function") state.lastFocus.focus();
+}
+function surprise() {
+  const pool = filterItems();
+  const pick = pool[Math.floor(Math.random() * pool.length)] || allItems()[0];
+  if (pick) openViewer(pick);
+}
+async function loadCatalog() {
+  const [giphyResult, hostedResult] = await Promise.allSettled([
+    fetch("./data/anime-gifs.json", { cache: "no-store" }).then(r => { if (!r.ok) throw Error("GIF catalog missing"); return r.json(); }),
+    fetch("./data/wallpapers.json", { cache: "no-store" }).then(r => { if (!r.ok) throw Error("Hosted catalog missing"); return r.json(); })
+  ]);
+  if (giphyResult.status === "fulfilled" && Array.isArray(giphyResult.value)) {
+    state.gifs = giphyResult.value.filter(item => item && validGiphy(item.giphyId) && item.title && item.series && item.creator)
+      .map(item => ({ ...item, id: "giphy-" + item.giphyId, type: "giphy" }));
+  } else showToast("GIF gallery couldn't load. Please refresh.");
+  if (hostedResult.status === "fulfilled" && Array.isArray(hostedResult.value)) {
+    state.hosted = hostedResult.value.filter(item => {
+      if (!item || item.permission === undefined || !urlCheck(item.url)) return false;
+      if (item.type === "video") return /\.(mp4|webm)(\?|$)/i.test(item.url);
+      if (item.type === "image") return /\.gif(\?|$)/i.test(item.url);
+      return false;
+    }).map((item, i) => ({
+      ...item,
+      id: item.id || "hosted-" + i,
+      series: item.category || "Other anime",
+      character: item.description || "",
+      tags: [item.category || "anime"],
+      featured: false,
+      type: item.type === "video" ? "hosted-video" : "hosted-gif"
+    }));
+  }
+  render();
+}
+$$(".type-tab").forEach(b => b.onclick = () => showMode(b.dataset.filter));
+$("#favoritesNav").onclick = () => showMode(state.mode === "saved" ? "all" : "saved");
+$("#searchInput").oninput = ev => { state.search = ev.target.value.trim().toLowerCase(); state.visible = state.pageSize; render(); };
+$("#sortSelect").onchange = ev => { state.sort = ev.target.value; render(); };
+$("#clearFilters").onclick = reset; $("#emptyReset").onclick = reset;
+$("#loadMore").onclick = () => { state.visible += state.pageSize; render(); };
+$("#headerSearch").onclick = () => { $("#wallpapers").scrollIntoView({ behavior: "smooth" }); $("#searchInput").focus({ preventScroll: true }); };
+$("#surpriseHero").onclick = surprise;
+$("#viewLive").onclick = () => showMode("all");
+$("#viewerClose").onclick = closeViewer;
+$("#viewerScrim").onclick = closeViewer;
+document.addEventListener("keydown", ev => {
+  if (ev.key === "Escape" && !$("#viewer").hidden) closeViewer();
+  if (ev.key === "/" && $("#viewer").hidden && !["INPUT", "TEXTAREA"].includes(document.activeElement.tagName)) {
+    ev.preventDefault(); $("#searchInput").focus();
+  }
+});
+$("#year").textContent = new Date().getFullYear();
+loadCatalog();
