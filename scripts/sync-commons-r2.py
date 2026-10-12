@@ -17,7 +17,7 @@ from urllib.request import Request, urlopen
 API = "https://commons.wikimedia.org/w/api.php"
 HEADERS = {"User-Agent": "AnimeWallora/1.0 (https://github.com/eliron8565/Wallpapers; licensed Commons mirror)"}
 CATALOG = Path("data/wallpapers.json")
-ACCEPTED = {"ccby3.0", "ccby4.0", "ccbysa3.0", "ccbysa4.0", "cc0"}
+ACCEPTED = {"ccby30", "ccby40", "ccbysa30", "ccbysa40", "cc0"}
 MEDIA_TYPES = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".webp": "image/webp", ".gif": "image/gif"}
 
 
