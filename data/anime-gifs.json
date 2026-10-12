@@ -1,92 +1,105 @@
 [
   {
-    "id": "giphy-jx4cDEP5Jqv8vekuyH",
-    "title": "Gojo vs Jogo",
-    "series": "Jujutsu Kaisen",
-    "character": "Gojo & Jogo",
-    "giphyId": "jx4cDEP5Jqv8vekuyH",
-    "creator": "TreyJuhl",
-    "tags": [
-      "domain expansion",
-      "shibuya"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/jx4cDEP5Jqv8vekuyH"
-  },
-  {
-    "id": "giphy-55hZg4DVSmRb3THYBu",
-    "title": "Jogo — Cursed Spirit",
-    "series": "Jujutsu Kaisen",
-    "character": "Jogo",
-    "giphyId": "55hZg4DVSmRb3THYBu",
-    "creator": "siddharthshivaramakrishnan",
-    "tags": [
-      "cursed spirit",
-      "jogo"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/55hZg4DVSmRb3THYBu"
-  },
-  {
-    "id": "giphy-qQC8JPGoSvNWZ4GI26",
-    "title": "Gojo vs Sukuna",
-    "series": "Jujutsu Kaisen",
-    "character": "Gojo & Sukuna",
-    "giphyId": "qQC8JPGoSvNWZ4GI26",
-    "creator": "rruhigo",
-    "tags": [
-      "satoru gojo",
-      "sukuna",
-      "battle"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/qQC8JPGoSvNWZ4GI26"
-  },
-  {
-    "id": "giphy-6z1HgugyTuAIcQU0bJ",
-    "title": "Sukuna Domain Expansion",
-    "series": "Jujutsu Kaisen",
-    "character": "Sukuna",
-    "giphyId": "6z1HgugyTuAIcQU0bJ",
-    "creator": "tybw__aizen",
-    "tags": [
-      "sukuna",
-      "domain expansion"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/6z1HgugyTuAIcQU0bJ"
-  },
-  {
     "id": "giphy-cEpUhXjUihCpAj2YZ2",
     "title": "Gojo — Limitless",
     "series": "Jujutsu Kaisen",
-    "character": "Gojo",
+    "character": "Satoru Gojo",
     "giphyId": "cEpUhXjUihCpAj2YZ2",
     "creator": "hatakekaqashi",
     "tags": [
-      "gojo satoru"
+      "anime",
+      "gojo",
+      "jujutsu kaisen"
     ],
     "featured": true,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/cEpUhXjUihCpAj2YZ2"
+    "source": "https://giphy.com/gifs/cEpUhXjUihCpAj2YZ2",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-TbFygkelB9JVBcpe4O",
-    "title": "Gojo — Blue Eyes",
+    "id": "giphy-UwaBlnvJB8WbbZ4mpF",
+    "title": "Gojo — Anime Edit",
     "series": "Jujutsu Kaisen",
-    "character": "Gojo",
-    "giphyId": "TbFygkelB9JVBcpe4O",
-    "creator": "gojosatoruig",
+    "character": "Satoru Gojo",
+    "giphyId": "UwaBlnvJB8WbbZ4mpF",
+    "creator": "brkeditsofficial",
     "tags": [
-      "gojo blue eyes"
+      "gojo",
+      "satoru",
+      "anime edit"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/UwaBlnvJB8WbbZ4mpF",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-aghNoNp8orVn6CHBq9",
+    "title": "Gojo & Shoko",
+    "series": "Jujutsu Kaisen",
+    "character": "Gojo & Shoko",
+    "giphyId": "aghNoNp8orVn6CHBq9",
+    "creator": "koyomi569",
+    "tags": [
+      "gojo",
+      "shoko"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/aghNoNp8orVn6CHBq9",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-SUBniHqjcXmk2UZfJc",
+    "title": "Gojo & Geto",
+    "series": "Jujutsu Kaisen",
+    "character": "Gojo & Geto",
+    "giphyId": "SUBniHqjcXmk2UZfJc",
+    "creator": "rafayelsylus",
+    "tags": [
+      "gojo",
+      "geto"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/SUBniHqjcXmk2UZfJc",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-FYOsEpYK7zHs3eDXmg",
+    "title": "Gojo — Anime Scene",
+    "series": "Jujutsu Kaisen",
+    "character": "Satoru Gojo",
+    "giphyId": "FYOsEpYK7zHs3eDXmg",
+    "creator": "rafayelsylus",
+    "tags": [
+      "gojo anime scene"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/TbFygkelB9JVBcpe4O"
+    "source": "https://giphy.com/gifs/FYOsEpYK7zHs3eDXmg",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-AgmdBhjPbCBjn6Vuo1",
+    "title": "Gojo — Purple Vibes",
+    "series": "Jujutsu Kaisen",
+    "character": "Satoru Gojo",
+    "giphyId": "AgmdBhjPbCBjn6Vuo1",
+    "creator": "rafayelsylus",
+    "tags": [
+      "gojo anime"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/AgmdBhjPbCBjn6Vuo1",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
     "id": "giphy-JLHmNwvRCoMA4x01uC",
@@ -96,139 +109,30 @@
     "giphyId": "JLHmNwvRCoMA4x01uC",
     "creator": "Otash360",
     "tags": [
-      "toji fushiguro"
+      "toji",
+      "anime edit"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/JLHmNwvRCoMA4x01uC"
+    "source": "https://giphy.com/gifs/JLHmNwvRCoMA4x01uC",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-B3PEptGGaoKHtIDFC2",
-    "title": "Toji — The Sorcerer Killer",
+    "id": "giphy-xxSprBorM4fVvhjeFQ",
+    "title": "Gojo & Sukuna",
     "series": "Jujutsu Kaisen",
-    "character": "Toji",
-    "giphyId": "B3PEptGGaoKHtIDFC2",
-    "creator": "Otash360",
+    "character": "Gojo & Sukuna",
+    "giphyId": "xxSprBorM4fVvhjeFQ",
+    "creator": "Ramses_Z7",
     "tags": [
-      "toji action"
+      "gojo sukuna anime"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/B3PEptGGaoKHtIDFC2"
-  },
-  {
-    "id": "giphy-Z7Ub8wpXSRG1J4HNfO",
-    "title": "Toji — Silent Walk",
-    "series": "Jujutsu Kaisen",
-    "character": "Toji",
-    "giphyId": "Z7Ub8wpXSRG1J4HNfO",
-    "creator": "mortandicha",
-    "tags": [
-      "toji walking"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/Z7Ub8wpXSRG1J4HNfO"
-  },
-  {
-    "id": "giphy-q9hLPnTC91ERpbDvjd",
-    "title": "Jogo — Nah, I'd Win",
-    "series": "Jujutsu Kaisen",
-    "character": "Jogo",
-    "giphyId": "q9hLPnTC91ERpbDvjd",
-    "creator": "TreyJuhl",
-    "tags": [
-      "jogo domain"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/q9hLPnTC91ERpbDvjd"
-  },
-  {
-    "id": "giphy-fOUsbuZb02D6LuEL8l",
-    "title": "Sukuna — Cursed Energy",
-    "series": "Jujutsu Kaisen",
-    "character": "Sukuna",
-    "giphyId": "fOUsbuZb02D6LuEL8l",
-    "creator": "leighad28",
-    "tags": [
-      "sukuna cursed energy"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/fOUsbuZb02D6LuEL8l"
-  },
-  {
-    "id": "giphy-Ibb90DqQyZJ9RHeFuP",
-    "title": "Yuta Okkotsu",
-    "series": "Jujutsu Kaisen",
-    "character": "Yuta",
-    "giphyId": "Ibb90DqQyZJ9RHeFuP",
-    "creator": "gojosatoruig",
-    "tags": [
-      "yuta"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/Ibb90DqQyZJ9RHeFuP"
-  },
-  {
-    "id": "giphy-Pt9cmfZNAsBvSPxzNr",
-    "title": "Gojo — Season Two",
-    "series": "Jujutsu Kaisen",
-    "character": "Gojo",
-    "giphyId": "Pt9cmfZNAsBvSPxzNr",
-    "creator": "Canadian_Gamer",
-    "tags": [
-      "gojo season 2"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/Pt9cmfZNAsBvSPxzNr"
-  },
-  {
-    "id": "giphy-uUCBmqb8Gg09hrcixD",
-    "title": "Sukuna — Smirk",
-    "series": "Jujutsu Kaisen",
-    "character": "Sukuna",
-    "giphyId": "uUCBmqb8Gg09hrcixD",
-    "creator": "Crash5565",
-    "tags": [
-      "sukuna"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/uUCBmqb8Gg09hrcixD"
-  },
-  {
-    "id": "giphy-U1rKCszzgEuVzMAVX0",
-    "title": "Rengoku — Flame Hashira",
-    "series": "Demon Slayer",
-    "character": "Rengoku",
-    "giphyId": "U1rKCszzgEuVzMAVX0",
-    "creator": "mewnblyg",
-    "tags": [
-      "flame hashira",
-      "infinity castle"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/U1rKCszzgEuVzMAVX0"
-  },
-  {
-    "id": "giphy-lYwa85YMlf8ZnA8fQt",
-    "title": "Zenitsu — Thunder Flash",
-    "series": "Demon Slayer",
-    "character": "Zenitsu",
-    "giphyId": "lYwa85YMlf8ZnA8fQt",
-    "creator": "mewnblyg",
-    "tags": [
-      "infinity castle",
-      "thunder"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/lYwa85YMlf8ZnA8fQt"
+    "source": "https://giphy.com/gifs/xxSprBorM4fVvhjeFQ",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
     "id": "giphy-ggR8oaGvhUbtndQSR4",
@@ -236,13 +140,51 @@
     "series": "Demon Slayer",
     "character": "Tanjiro & Nezuko",
     "giphyId": "ggR8oaGvhUbtndQSR4",
-    "creator": "Crunchyroll",
+    "creator": "crunchyroll",
     "tags": [
-      "kamado family"
+      "kimetsu no yaiba",
+      "tanjiro",
+      "nezuko"
     ],
     "featured": true,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/ggR8oaGvhUbtndQSR4"
+    "source": "https://giphy.com/gifs/ggR8oaGvhUbtndQSR4",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-efCdWBE19bR26ScE02",
+    "title": "Tanjiro — Water Breathing",
+    "series": "Demon Slayer",
+    "character": "Tanjiro",
+    "giphyId": "efCdWBE19bR26ScE02",
+    "creator": "crunchyroll",
+    "tags": [
+      "tanjiro",
+      "water"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/efCdWBE19bR26ScE02",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-gIBzKPERLHF6mvU7Ea",
+    "title": "Tanjiro — Breathing Technique",
+    "series": "Demon Slayer",
+    "character": "Tanjiro",
+    "giphyId": "gIBzKPERLHF6mvU7Ea",
+    "creator": "crunchyroll",
+    "tags": [
+      "tanjiro",
+      "action"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/gIBzKPERLHF6mvU7Ea",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
     "id": "giphy-LMuU3xRkGus3SYqaqD",
@@ -250,186 +192,118 @@
     "series": "Demon Slayer",
     "character": "Nezuko",
     "giphyId": "LMuU3xRkGus3SYqaqD",
-    "creator": "Crunchyroll",
+    "creator": "crunchyroll",
     "tags": [
       "nezuko"
     ],
-    "featured": true,
+    "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/LMuU3xRkGus3SYqaqD"
+    "source": "https://giphy.com/gifs/LMuU3xRkGus3SYqaqD",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-5qrFtOHxDDOMSNec36",
-    "title": "Akaza — Infinity Castle",
+    "id": "giphy-QUKqSLmE7vmZP2PkZk",
+    "title": "Tanjiro — Kimetsu no Yaiba",
     "series": "Demon Slayer",
-    "character": "Akaza",
-    "giphyId": "5qrFtOHxDDOMSNec36",
-    "creator": "mewnblyg",
+    "character": "Tanjiro",
+    "giphyId": "QUKqSLmE7vmZP2PkZk",
+    "creator": "crunchyroll",
     "tags": [
-      "akaza",
-      "infinity castle"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/5qrFtOHxDDOMSNec36"
-  },
-  {
-    "id": "giphy-PwfzTn5tTU3wH3Us8j",
-    "title": "Tanjiro, Zenitsu & Nezuko",
-    "series": "Demon Slayer",
-    "character": "Tanjiro & Friends",
-    "giphyId": "PwfzTn5tTU3wH3Us8j",
-    "creator": "raykimofficial",
-    "tags": [
-      "friends",
-      "nezuko",
-      "zenitsu"
+      "tanjiro",
+      "kimetsu"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/PwfzTn5tTU3wH3Us8j"
+    "source": "https://giphy.com/gifs/QUKqSLmE7vmZP2PkZk",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-4ajQEQgTHvKxNWGFCK",
-    "title": "Zenitsu — Autumn Leaves",
+    "id": "giphy-dyjrpqaUVqCELGuQVr",
+    "title": "Tanjiro — Action Scene",
     "series": "Demon Slayer",
-    "character": "Zenitsu",
-    "giphyId": "4ajQEQgTHvKxNWGFCK",
-    "creator": "RespectiveCollective",
+    "character": "Tanjiro",
+    "giphyId": "dyjrpqaUVqCELGuQVr",
+    "creator": "crunchyroll",
     "tags": [
-      "zenitsu leaves"
+      "tanjiro",
+      "anime"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/4ajQEQgTHvKxNWGFCK"
+    "source": "https://giphy.com/gifs/dyjrpqaUVqCELGuQVr",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
     "id": "giphy-MXBS1DC7anFkfsqnCr",
-    "title": "Nezuko — Petal Fall",
+    "title": "Nezuko — Falling Leaves",
     "series": "Demon Slayer",
     "character": "Nezuko",
     "giphyId": "MXBS1DC7anFkfsqnCr",
     "creator": "RespectiveCollective",
     "tags": [
-      "nezuko petal sakura"
+      "nezuko",
+      "sakura",
+      "leaves"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/MXBS1DC7anFkfsqnCr"
+    "source": "https://giphy.com/gifs/MXBS1DC7anFkfsqnCr",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-cJ7mdUoH6V2HcXs78v",
-    "title": "Akaza vs Giyu",
+    "id": "giphy-U1rKCszzgEuVzMAVX0",
+    "title": "Rengoku — Flame Hashira",
     "series": "Demon Slayer",
-    "character": "Akaza & Giyu",
-    "giphyId": "cJ7mdUoH6V2HcXs78v",
+    "character": "Kyojuro Rengoku",
+    "giphyId": "U1rKCszzgEuVzMAVX0",
     "creator": "mewnblyg",
     "tags": [
-      "giyu",
-      "akaza"
+      "rengoku",
+      "flame"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/cJ7mdUoH6V2HcXs78v"
+    "source": "https://giphy.com/gifs/U1rKCszzgEuVzMAVX0",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-3NFzNsD3iRShTgkAAU",
-    "title": "Zenitsu vs Kaigaku",
-    "series": "Demon Slayer",
-    "character": "Zenitsu",
-    "giphyId": "3NFzNsD3iRShTgkAAU",
-    "creator": "mewnblyg",
-    "tags": [
-      "kaigaku",
-      "zenitsu"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/3NFzNsD3iRShTgkAAU"
-  },
-  {
-    "id": "giphy-T2d4uMzn7dzOVHcUHA",
-    "title": "Tanjiro — Demon Slayer",
+    "id": "giphy-HlnAuBeR5PCMy3WxYC",
+    "title": "Tanjiro — Infinity Castle",
     "series": "Demon Slayer",
     "character": "Tanjiro",
-    "giphyId": "T2d4uMzn7dzOVHcUHA",
-    "creator": "elitsang",
-    "tags": [
-      "tanjiro"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/T2d4uMzn7dzOVHcUHA"
-  },
-  {
-    "id": "giphy-6sevo6oEBoCX7CxOeA",
-    "title": "Akaza — Past",
-    "series": "Demon Slayer",
-    "character": "Akaza",
-    "giphyId": "6sevo6oEBoCX7CxOeA",
+    "giphyId": "HlnAuBeR5PCMy3WxYC",
     "creator": "mewnblyg",
     "tags": [
-      "akaza hakuji"
+      "tanjiro",
+      "infinity castle"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/6sevo6oEBoCX7CxOeA"
+    "source": "https://giphy.com/gifs/HlnAuBeR5PCMy3WxYC",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-lu38vmKp0sUmVZeeui",
-    "title": "Naruto — Itachi's Moon",
-    "series": "Naruto",
-    "character": "Itachi Uchiha",
-    "giphyId": "lu38vmKp0sUmVZeeui",
-    "creator": "mrborugoat",
+    "id": "giphy-yxiMuqnwkhAk5lX1T6",
+    "title": "Demon Slayer — Sword Fight",
+    "series": "Demon Slayer",
+    "character": "Tanjiro",
+    "giphyId": "yxiMuqnwkhAk5lX1T6",
+    "creator": "iQiyiOfficial",
     "tags": [
-      "itachi moon"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/lu38vmKp0sUmVZeeui"
-  },
-  {
-    "id": "giphy-7wkbm4qhfO6XpwA2aZ",
-    "title": "Sasuke — Chidori",
-    "series": "Naruto",
-    "character": "Sasuke Uchiha",
-    "giphyId": "7wkbm4qhfO6XpwA2aZ",
-    "creator": "mrborugoat",
-    "tags": [
-      "sasuke chidori"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/7wkbm4qhfO6XpwA2aZ"
-  },
-  {
-    "id": "giphy-0MAlFM4brlxyDI49Bp",
-    "title": "Itachi — Shadow",
-    "series": "Naruto",
-    "character": "Itachi Uchiha",
-    "giphyId": "0MAlFM4brlxyDI49Bp",
-    "creator": "mrborugoat",
-    "tags": [
-      "itachi emotional"
+      "tanjiro",
+      "fight"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/0MAlFM4brlxyDI49Bp"
-  },
-  {
-    "id": "giphy-vJ7IyeRj0e1DWZvRZ4",
-    "title": "Naruto — Shinobi",
-    "series": "Naruto",
-    "character": "Naruto",
-    "giphyId": "vJ7IyeRj0e1DWZvRZ4",
-    "creator": "Xbox",
-    "tags": [
-      "naruto"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/vJ7IyeRj0e1DWZvRZ4"
+    "source": "https://giphy.com/gifs/yxiMuqnwkhAk5lX1T6",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
     "id": "giphy-XqrWxZms37M7ALU5Ke",
@@ -439,151 +313,219 @@
     "giphyId": "XqrWxZms37M7ALU5Ke",
     "creator": "bleachigoats",
     "tags": [
-      "ichigo bankai tybw"
+      "ichigo",
+      "bankai",
+      "tybw"
     ],
     "featured": true,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/XqrWxZms37M7ALU5Ke"
-  },
-  {
-    "id": "giphy-a5bBoYG5GpnypTmwES",
-    "title": "Ichigo — Thousand-Year Blood War",
-    "series": "Bleach",
-    "character": "Ichigo Kurosaki",
-    "giphyId": "a5bBoYG5GpnypTmwES",
-    "creator": "tybwaiizen",
-    "tags": [
-      "ichigo tybw"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/a5bBoYG5GpnypTmwES"
-  },
-  {
-    "id": "giphy-QMe5XCu19JLLqT6PY7",
-    "title": "Ichigo — Hollow",
-    "series": "Bleach",
-    "character": "Ichigo Kurosaki",
-    "giphyId": "QMe5XCu19JLLqT6PY7",
-    "creator": "Ergo8",
-    "tags": [
-      "ichigo bleach"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/QMe5XCu19JLLqT6PY7"
+    "source": "https://giphy.com/gifs/XqrWxZms37M7ALU5Ke",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
     "id": "giphy-3b8l17YmEBVTDEoSmi",
-    "title": "Ichigo — Final Battle",
+    "title": "Ichigo — TYBW",
     "series": "Bleach",
     "character": "Ichigo Kurosaki",
     "giphyId": "3b8l17YmEBVTDEoSmi",
     "creator": "tybw__aizen",
     "tags": [
-      "ichigo bankai"
+      "bleach",
+      "bankai"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/3b8l17YmEBVTDEoSmi"
+    "source": "https://giphy.com/gifs/3b8l17YmEBVTDEoSmi",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-4eTuzu8xIEqdDfPu9J",
-    "title": "Luffy — Gear Five",
-    "series": "One Piece",
-    "character": "Monkey D. Luffy",
-    "giphyId": "4eTuzu8xIEqdDfPu9J",
-    "creator": "tempest2x6",
+    "id": "giphy-EfiJh372yIefJ2ujZy",
+    "title": "Ichigo — Bleach",
+    "series": "Bleach",
+    "character": "Ichigo Kurosaki",
+    "giphyId": "EfiJh372yIefJ2ujZy",
+    "creator": "vampxdio",
     "tags": [
-      "gear 5 nika"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/4eTuzu8xIEqdDfPu9J"
-  },
-  {
-    "id": "giphy-f8p6HYJ33EPv4IMfS6",
-    "title": "Luffy — Sun God Nika",
-    "series": "One Piece",
-    "character": "Monkey D. Luffy",
-    "giphyId": "f8p6HYJ33EPv4IMfS6",
-    "creator": "Darius_newsome0",
-    "tags": [
-      "gear 5 nika"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/f8p6HYJ33EPv4IMfS6"
-  },
-  {
-    "id": "giphy-ybu0oMW3RdE3ZwaXw4",
-    "title": "Luffy — Awakening",
-    "series": "One Piece",
-    "character": "Monkey D. Luffy",
-    "giphyId": "ybu0oMW3RdE3ZwaXw4",
-    "creator": "tybw__aizen",
-    "tags": [
-      "gear 5"
+      "ichigo",
+      "zangetsu"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/ybu0oMW3RdE3ZwaXw4"
+    "source": "https://giphy.com/gifs/EfiJh372yIefJ2ujZy",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-SlTl6ZzuU0QOdSXCvi",
-    "title": "Luffy — Joy Boy",
-    "series": "One Piece",
-    "character": "Monkey D. Luffy",
-    "giphyId": "SlTl6ZzuU0QOdSXCvi",
-    "creator": "jarrekk4",
+    "id": "giphy-ukto3TrQS9hIDoDFHF",
+    "title": "Byakuya Kuchiki",
+    "series": "Bleach",
+    "character": "Byakuya",
+    "giphyId": "ukto3TrQS9hIDoDFHF",
+    "creator": "vizmedia",
     "tags": [
-      "joyboy"
+      "bleach",
+      "byakuya"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/SlTl6ZzuU0QOdSXCvi"
+    "source": "https://giphy.com/gifs/ukto3TrQS9hIDoDFHF",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-clnwbP8SbJUvb0Nxty",
-    "title": "Goku — Ultra Instinct",
-    "series": "Dragon Ball",
-    "character": "Son Goku",
-    "giphyId": "clnwbP8SbJUvb0Nxty",
-    "creator": "ToeiAnimation",
+    "id": "giphy-1xm1Gm8Scnp33n0LEj",
+    "title": "Naruto — Shonen Jump",
+    "series": "Naruto",
+    "character": "Naruto & Boruto",
+    "giphyId": "1xm1Gm8Scnp33n0LEj",
+    "creator": "vizmedia",
     "tags": [
-      "dragon ball super"
+      "naruto",
+      "boruto"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/1xm1Gm8Scnp33n0LEj",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-sd96lfc0ZYZ8MeQcin",
+    "title": "Naruto — Minato Edit",
+    "series": "Naruto",
+    "character": "Minato",
+    "giphyId": "sd96lfc0ZYZ8MeQcin",
+    "creator": "F4_offcl",
+    "tags": [
+      "naruto",
+      "minato"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/sd96lfc0ZYZ8MeQcin",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-hwvbGO6yroV0e9eg0c",
+    "title": "One Piece — Robin",
+    "series": "One Piece",
+    "character": "Nico Robin",
+    "giphyId": "hwvbGO6yroV0e9eg0c",
+    "creator": "bandainamco",
+    "tags": [
+      "one piece",
+      "robin"
     ],
     "featured": true,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/clnwbP8SbJUvb0Nxty"
+    "source": "https://giphy.com/gifs/hwvbGO6yroV0e9eg0c",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-b2bHeMJiQem5EIydUy",
+    "title": "One Piece — Zoro",
+    "series": "One Piece",
+    "character": "Roronoa Zoro",
+    "giphyId": "b2bHeMJiQem5EIydUy",
+    "creator": "bandainamco",
+    "tags": [
+      "one piece",
+      "zoro"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/b2bHeMJiQem5EIydUy",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-s1hPpH61mVh0NbZEEO",
+    "title": "Luffy — One Piece",
+    "series": "One Piece",
+    "character": "Monkey D. Luffy",
+    "giphyId": "s1hPpH61mVh0NbZEEO",
+    "creator": "giologyy",
+    "tags": [
+      "luffy",
+      "pirates"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/s1hPpH61mVh0NbZEEO",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-y4Vpu2AeAEEh2",
+    "title": "One Piece — Funimation",
+    "series": "One Piece",
+    "character": "Straw Hat Pirates",
+    "giphyId": "y4Vpu2AeAEEh2",
+    "creator": "funimation",
+    "tags": [
+      "one piece",
+      "pirate"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/y4Vpu2AeAEEh2",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
     "id": "giphy-aAbax5anloMNk6TSP9",
     "title": "Goku — Super Saiyan",
     "series": "Dragon Ball",
-    "character": "Son Goku",
+    "character": "Goku",
     "giphyId": "aAbax5anloMNk6TSP9",
     "creator": "ToeiAnimation",
     "tags": [
+      "goku",
       "super saiyan"
     ],
     "featured": true,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/aAbax5anloMNk6TSP9"
+    "source": "https://giphy.com/gifs/aAbax5anloMNk6TSP9",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-mNbuUO7dBYCkRtx1iR",
-    "title": "Goku — Power Surge",
+    "id": "giphy-q0UoJaLwJdtOAPwfJW",
+    "title": "Dragon Ball — Saiyan Power",
     "series": "Dragon Ball",
-    "character": "Son Goku",
-    "giphyId": "mNbuUO7dBYCkRtx1iR",
-    "creator": "DBZexclusives",
+    "character": "Goku & Vegeta",
+    "giphyId": "q0UoJaLwJdtOAPwfJW",
+    "creator": "ToeiAnimation",
     "tags": [
-      "ultra instinct"
+      "dragon ball",
+      "saiyan"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/mNbuUO7dBYCkRtx1iR"
+    "source": "https://giphy.com/gifs/q0UoJaLwJdtOAPwfJW",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-Y0ZHpWjpd6CCCsEiLh",
+    "title": "Dragon Ball — Battle",
+    "series": "Dragon Ball",
+    "character": "Goku & Vegeta",
+    "giphyId": "Y0ZHpWjpd6CCCsEiLh",
+    "creator": "ToeiAnimation",
+    "tags": [
+      "dragon ball",
+      "anime"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/Y0ZHpWjpd6CCCsEiLh",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
     "id": "giphy-z1CW0EVKF27yWbg8Ui",
@@ -593,66 +535,62 @@
     "giphyId": "z1CW0EVKF27yWbg8Ui",
     "creator": "sonypictures",
     "tags": [
-      "denji reze movie"
+      "chainsaw man",
+      "reze"
     ],
     "featured": true,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/z1CW0EVKF27yWbg8Ui"
+    "source": "https://giphy.com/gifs/z1CW0EVKF27yWbg8Ui",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-0clPTZ2eRi2TOyLjNm",
+    "id": "giphy-SZrPAlo2jP74SHa9Kf",
+    "title": "Chainsaw Man — Reze",
+    "series": "Chainsaw Man",
+    "character": "Reze",
+    "giphyId": "SZrPAlo2jP74SHa9Kf",
+    "creator": "sonypictures",
+    "tags": [
+      "reze",
+      "movie"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/SZrPAlo2jP74SHa9Kf",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
+  },
+  {
+    "id": "giphy-u55ZJakW2vmp6Gsa54",
     "title": "Chainsaw Man — Makima",
     "series": "Chainsaw Man",
     "character": "Makima",
-    "giphyId": "0clPTZ2eRi2TOyLjNm",
+    "giphyId": "u55ZJakW2vmp6Gsa54",
     "creator": "sonypictures",
     "tags": [
-      "denji makima"
+      "makima"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/0clPTZ2eRi2TOyLjNm"
+    "source": "https://giphy.com/gifs/u55ZJakW2vmp6Gsa54",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   },
   {
-    "id": "giphy-mgUUmKC0qo2b8udmUz",
-    "title": "Chainsaw Man — Pochita",
+    "id": "giphy-4YGBjobwdhcA09MniL",
+    "title": "Chainsaw Man — Aki",
     "series": "Chainsaw Man",
-    "character": "Denji & Pochita",
-    "giphyId": "mgUUmKC0qo2b8udmUz",
-    "creator": "AtReixOdada",
-    "tags": [
-      "pochita"
-    ],
-    "featured": false,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/mgUUmKC0qo2b8udmUz"
-  },
-  {
-    "id": "giphy-dgt2qOQj9r86bWt7cQ",
-    "title": "Chainsaw Man — Reze Arc",
-    "series": "Chainsaw Man",
-    "character": "Reze",
-    "giphyId": "dgt2qOQj9r86bWt7cQ",
+    "character": "Aki Hayakawa",
+    "giphyId": "4YGBjobwdhcA09MniL",
     "creator": "sonypictures",
     "tags": [
-      "reze movie"
+      "aki"
     ],
     "featured": false,
     "type": "giphy",
-    "source": "https://giphy.com/gifs/dgt2qOQj9r86bWt7cQ"
-  },
-  {
-    "id": "giphy-9DInjX8XNsrlTh67bj",
-    "title": "Levi Ackerman",
-    "series": "Attack on Titan",
-    "character": "Levi",
-    "giphyId": "9DInjX8XNsrlTh67bj",
-    "creator": "Ruposh",
-    "tags": [
-      "levi attack on titan"
-    ],
-    "featured": true,
-    "type": "giphy",
-    "source": "https://giphy.com/gifs/9DInjX8XNsrlTh67bj"
+    "source": "https://giphy.com/gifs/4YGBjobwdhcA09MniL",
+    "reviewed": "series-and-uploader-metadata",
+    "contentNote": "Source metadata identifies anime content; viewer reports can flag overlays, memes or inaccuracies."
   }
 ]
