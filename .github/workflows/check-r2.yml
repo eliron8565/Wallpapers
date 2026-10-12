@@ -1,0 +1,45 @@
+name: Check Cloudflare R2 connection
+
+on:
+  push:
+    paths:
+      - ".github/workflows/check-r2.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}
+    steps:
+      - name: Check configuration without revealing secrets
+        shell: bash
+        run: |
+          if [[ -z "$AWS_ACCESS_KEY_ID" || -z "$AWS_SECRET_ACCESS_KEY" || -z "$R2_ACCOUNT_ID" ]]; then
+            echo "::error::Missing R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, or R2_ACCOUNT_ID repository secret."
+            exit 1
+          fi
+          if [[ ! "$R2_ACCOUNT_ID" =~ ^[a-fA-F0-9]{32}$ ]]; then
+            echo "::error::R2_ACCOUNT_ID must be your 32-character Cloudflare account identifier."
+            exit 1
+          fi
+          if [[ -z "$R2_PUBLIC_URL" ]]; then
+            echo "::error::Add R2_PUBLIC_URL in Actions repository variables."
+            exit 1
+          fi
+          echo "Required secrets and public URL variable are configured."
+      - name: Verify authorized bucket access without uploading
+        shell: bash
+        run: |
+          aws s3api head-bucket \
+            --bucket animewallora-media \
+            --endpoint-url "https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
+          echo "R2 bucket access confirmed. No media was uploaded."
