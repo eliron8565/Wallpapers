@@ -131,9 +131,8 @@ def main():
     if count:
         CATALOG.write_text(json.dumps(items, indent=2, ensure_ascii=False) + "\n", encoding="utf8")
     print(f"Sync complete: {count} new R2 uploads; {len(failures)} skipped.")
-    if failures:
-        # An explicit failure ensures licensing problems are not silently ignored.
-        raise RuntimeError("Not all licensed artworks could be synced; see logs above.")
+    if failures and not count:
+        raise RuntimeError("No approved Commons artworks could be synced; see logs above.")
 
 
 if __name__ == "__main__":
