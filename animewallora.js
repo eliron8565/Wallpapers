@@ -17,7 +17,17 @@ function mediaType(item) {
   return item.type === "giphy" ? "GIF" : item.type === "video" ? "VIDEO" : "IMAGE";
 }
 function isGIF(item) {return item.type === "giphy" || item.type === "video" || item.type === "animated-gif";}
-function all() {return [...state.gifs, ...state.images];}
+function all() {
+  // Mix recently added real GIFs and images, instead of burying images after every GIF.
+  const gifs=[...state.gifs].reverse(), images=[...state.images].reverse();
+  const mixed=[];
+  const length=Math.max(gifs.length, images.length);
+  for(let i=0;i<length;i++) {
+    if(gifs[i]) mixed.push(gifs[i]);
+    if(images[i]) mixed.push(images[i]);
+  }
+  return mixed;
+}
 const BLOCKED_ADULT_TAGS = /\b(?:nsfw|hentai|ecchi|nude|nudity|naked|porn(?:ography)?|sexual|sex|lewd|fetish|explicit|erotic|r18|r-18|18\+|lingerie|bikini|underwear|boobs?|breasts?|nipples?|onlyfans|rule\s*34|rule34)\b/i;
 function safeForWork(item) {
   if (!item || item.contentRating !== "sfw") return false;
@@ -58,7 +68,7 @@ function matches(item) {
 function results() {
   const items = all().filter(matches);
   if (state.sort === "name") items.sort((a,b) => a.title.localeCompare(b.title));
-  else if (state.sort === "newest") items.reverse();
+  else if (state.sort === "newest") return items;
   else items.sort((a,b) => Number(!!b.featured) - Number(!!a.featured));
   return items;
 }
