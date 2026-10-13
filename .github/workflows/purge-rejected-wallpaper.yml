@@ -1,0 +1,32 @@
+name: Purge rejected NSFW wallpaper from R2
+
+on:
+  push:
+    paths:
+      - ".github/workflows/purge-rejected-wallpaper.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: auto
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+    steps:
+      - name: Delete only the three rejected On the Edge objects
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$AWS_ACCESS_KEY_ID" && test -n "$AWS_SECRET_ACCESS_KEY"
+          [[ "$R2_ACCOUNT_ID" =~ ^[a-fA-F0-9]{32}$ ]]
+          endpoint="https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com"
+          aws s3 rm "s3://animewallora-media/licensed-anime/717232c76f96029032d65a537da4.jpg" --endpoint-url "$endpoint"
+          aws s3 rm "s3://animewallora-media/downloads/licensed-anime/717232c76f96029032d65a537da4.jpg" --endpoint-url "$endpoint"
+          aws s3 rm "s3://animewallora-media/thumbnails/b9036b2afbac2a43f276e62ff6a5.webp" --endpoint-url "$endpoint"
+          echo "Rejected On the Edge media and preview removed from bucket."
