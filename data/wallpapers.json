@@ -1160,8 +1160,8 @@
     "id": "sfw-david-revoy-043",
     "title": "Futuristic Aircraft Landing Pad",
     "filename": "Illustration of a futuristic aircraft on a landing pad by David Revoy.png",
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Illustration_of_a_futuristic_aircraft_on_a_landing_pad_by_David_Revoy.png",
-    "thumbnail": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Illustration_of_a_futuristic_aircraft_on_a_landing_pad_by_David_Revoy.png?width=640",
+    "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/84a6b0fdba0d0a56d0285c4f23dd.png",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/84a6b0fdba0d0a56d0285c4f23dd.png",
     "creator": "David Revoy",
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
@@ -1173,7 +1173,9 @@
     "description": "Safe-for-work independent illustration by David Revoy. Original file and licensing: Wikimedia Commons.",
     "collection": "Family-friendly fantasy & anime-inspired art",
     "contentRating": "sfw",
-    "editorialApproval": "family-friendly-theme-curated-commons-license-verified"
+    "editorialApproval": "family-friendly-theme-curated-commons-license-verified",
+    "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/84a6b0fdba0d0a56d0285c4f23dd.png",
+    "hostedOn": "Cloudflare R2"
   },
   {
     "id": "sfw-david-revoy-044",
