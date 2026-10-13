@@ -18,6 +18,13 @@ function mediaType(item) {
 }
 function isGIF(item) {return item.type === "giphy" || item.type === "video" || item.type === "animated-gif";}
 function all() {return [...state.gifs, ...state.images];}
+const BLOCKED_ADULT_TAGS = /\b(?:nsfw|hentai|ecchi|nude|nudity|naked|porn(?:ography)?|sexual|sex|lewd|fetish|explicit|erotic|r18|r-18|18\+|lingerie|bikini|underwear|boobs?|breasts?|nipples?|onlyfans|rule\s*34|rule34)\b/i;
+function safeForWork(item) {
+  if (!item || item.contentRating !== "sfw") return false;
+  const meta = [item.title, item.series, item.category, item.character, item.description, ...(item.tags || [])].filter(Boolean).join(" ");
+  return !BLOCKED_ADULT_TAGS.test(meta);
+}
+
 function saveLikes() {try {localStorage.setItem("animewallora-favorites", JSON.stringify([...favorites]));} catch {}}
 function toast(message) {
   const el = $("#toast");
@@ -120,7 +127,7 @@ function render() {
   renderCategories();updateLikes();
   const filtered=results();
   $("#totalCount").textContent=String(all().length).padStart(2,"0");
-  $("#heroCount").textContent=state.gifs.length+" GIFs · "+state.images.length+" images";
+  $("#heroCount").textContent=state.gifs.length+" GIFs · "+state.images.length+" images · SFW only";
   $("#resultCount").textContent=filtered.length+" wallpaper"+(filtered.length===1?"":"s");
   $("#galleryHeading").textContent=state.mode==="gifs"?"Animated anime GIFs":state.mode==="images"?"Downloadable anime artwork":state.mode==="saved"?"Your favorites":state.category!=="All"?state.category+" wallpapers":"Anime wallpapers & GIFs";
   $$(".type-tab").forEach(x=>{x.classList.toggle("active",x.dataset.filter===state.mode);x.setAttribute("aria-pressed",String(x.dataset.filter===state.mode));});
@@ -175,11 +182,11 @@ async function load() {
     fetch("./data/wallpapers.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("Image catalog unavailable");return r.json();})
   ]);
   if(g.status==="fulfilled"&&Array.isArray(g.value)) {
-    state.gifs=g.value.filter(x=>x&&/^[a-zA-Z0-9]{12,32}$/.test(x.giphyId)&&x.series&&x.title&&x.creator)
+    state.gifs=g.value.filter(x=>safeForWork(x)&&/^[a-zA-Z0-9]{12,32}$/.test(x.giphyId)&&x.series&&x.title&&x.creator)
       .map(x=>({...x,id:"giphy-"+x.giphyId,type:"giphy"}));
   } else toast("Some GIFs couldn't load. Try refreshing.");
   if(i.status==="fulfilled"&&Array.isArray(i.value)) {
-    state.images=i.value.filter(x=>x&&x.creator&&x.license&&x.permission&&httpsURL(x.url)&&["image","video"].includes(x.type))
+    state.images=i.value.filter(x=>safeForWork(x)&&x.creator&&x.license&&x.permission&&httpsURL(x.url)&&["image","video"].includes(x.type))
       .map((x,n)=>({...x,id:x.id||"image-"+n,series:x.series||x.category||"Illustrations",featured:(x.series==="Jujutsu Kaisen"||x.series==="Naruto"||n===0),type:x.type==="video"?"video":/\.gif(?:\?|$)/i.test(x.url)?"animated-gif":"image"}));
     const preferred=state.images.find(x=>x.series==="Jujutsu Kaisen"||x.series==="Naruto")||state.images[0];
     if(preferred)$(".hero-backdrop").style.backgroundImage="url("+JSON.stringify(preferred.url)+")";
