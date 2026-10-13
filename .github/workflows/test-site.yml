@@ -40,7 +40,7 @@ jobs:
           assert 'data-filter="images"' in html and 'data-filter="gifs"' in html, "GIF and image tabs are required"
           assert "qQC8JPGoSvNWZ4GI26" not in html, "Untrusted meme-prone hero removed"
           items = json.loads(Path("data/anime-gifs.json").read_text(encoding="utf8"))
-          assert len(items) >= 40, "Expected at least 40 carefully selected SFW GIPHY embeds"
+          assert len(items) >= 70, "Expected 70+ anime GIPHY embeds with verified source metadata"
           ids = set()
           required = {"Jujutsu Kaisen", "Demon Slayer", "Naruto", "Bleach", "One Piece"}
           for item in items:
@@ -55,11 +55,12 @@ jobs:
           assert not any(x["giphyId"] == "a5bBoYG5GpnypTmwES" for x in items), "Reported meme must not reappear"
           assert all(x.get("creator") and x.get("source", "").startswith("https://giphy.com/gifs/") for x in items)
           images = json.loads(Path("data/wallpapers.json").read_text(encoding="utf8"))
-          assert len(images) >= 60, "Expected 60+ curated licensed SFW artworks"
+          assert len(images) >= 100, "Expected 100+ artist-licensed fantasy/anime image sources"
           assert any(x.get("series") == "Jujutsu Kaisen" for x in images)
           assert any(x.get("series") == "Naruto" for x in images)
           assert all(x.get("contentRating") == "sfw" for x in items + images), "Non-SFW or unreviewed media not allowed"
           assert "safeForWork(x)" in app, "Client-side SFW filtering is required"
+          assert "viewerFullscreen" in html and "requestFullscreen" in app, "Full-screen animated preview missing"
           assert all(x.get("series") != "Chainsaw Man" for x in items), "Mature-rated series cannot appear in the SFW GIF feed"
           print(f"AnimeWallora passes: {len(items)} curated GIF embeds, {len(images)} artworks.")
           PY
