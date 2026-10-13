@@ -172,6 +172,7 @@ function openViewer(item) {
   $("#viewer").hidden=false;document.body.style.overflow="hidden";$("#viewerClose").focus();
 }
 function closeViewer() {
+  if(document.fullscreenElement && typeof document.exitFullscreen==="function") document.exitFullscreen().catch(()=>{});
   $("#viewer").hidden=true;$("#viewerArt").replaceChildren();
   document.body.style.overflow="";state.selected=null;
   if(state.lastFocus&&state.lastFocus.isConnected)state.lastFocus.focus();
@@ -204,6 +205,18 @@ $("#headerSearch").onclick=()=>{$("#wallpapers").scrollIntoView({behavior:"smoot
 $("#surpriseHero").onclick=()=>{const items=results();if(items.length)openViewer(items[Math.floor(Math.random()*items.length)]);};
 $("#viewLive").onclick=()=>switchMode("gifs");
 $("#viewerClose").onclick=closeViewer;$("#viewerScrim").onclick=closeViewer;
+$("#viewerFullscreen").onclick=async()=>{
+  const media=$("#viewerArt");
+  if(!media || $("#viewer").hidden) return;
+  try {
+    if(document.fullscreenElement) await document.exitFullscreen();
+    else if(typeof media.requestFullscreen==="function") await media.requestFullscreen();
+    else toast("Fullscreen is not available in this browser.");
+  } catch { toast("Fullscreen couldn't start in this browser."); }
+};
+document.addEventListener("fullscreenchange",()=>{
+  $("#viewerFullscreen").textContent=document.fullscreenElement?"⤢ Exit fullscreen":"⛶ Fullscreen preview";
+});
 document.addEventListener("keydown",e=>{
   if(e.key==="Escape"&&!$("#viewer").hidden)closeViewer();
   if(e.key==="/"&&$("#viewer").hidden&&!["INPUT","TEXTAREA"].includes(document.activeElement.tagName)) {e.preventDefault();$("#searchInput").focus();}
