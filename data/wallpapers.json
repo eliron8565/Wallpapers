@@ -1721,8 +1721,8 @@
     "id": "curated-hereva-017",
     "title": "Pepper's House",
     "filename": "2022-03-25 pepper-house net.jpg",
-    "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2022-03-25_pepper-house_net.jpg",
-    "thumbnail": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2022-03-25_pepper-house_net.jpg?width=640",
+    "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/bd5e701d9f718251a3fe20fa2adf.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/bd5e701d9f718251a3fe20fa2adf.jpg",
     "creator": "David Revoy",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -1735,7 +1735,9 @@
     "collection": "Fantasy worlds · Pepper & Carrot",
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-series-curated-license-corrected-from-Commons",
-    "visualReviewStatus": "source-category-reviewed; audience reports enabled"
+    "visualReviewStatus": "source-category-reviewed; audience reports enabled",
+    "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/bd5e701d9f718251a3fe20fa2adf.jpg",
+    "hostedOn": "Cloudflare R2"
   },
   {
     "id": "curated-hereva-018",
