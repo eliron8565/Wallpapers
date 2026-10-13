@@ -7,7 +7,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 CATALOG = Path("data/wallpapers.json")
-ADULT_METADATA = re.compile(r"\\b(?:nsfw|hentai|ecchi|nude|nudity|naked|porn(?:ography)?|sexual|sex|lewd|fetish|explicit|erotic|r18|r-18|18\\+|lingerie|bikini|underwear|boobs?|breasts?|nipples?|onlyfans|rule\\s*34|rule34)\\b", re.I)
+ADULT_METADATA = re.compile(r"\b(?:nsfw|hentai|ecchi|nude|nudity|naked|porn(?:ography)?|sexual|sex|lewd|fetish|explicit|erotic|r18|r-18|18\+|lingerie|bikini|underwear|boobs?|breasts?|nipples?|onlyfans|rule\s*34|rule34)\b", re.I)
 TYPES = {
     ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png",
     ".webp": "image/webp", ".gif": "image/gif",
