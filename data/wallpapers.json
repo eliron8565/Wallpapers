@@ -4,7 +4,7 @@
     "title": "On the Edge",
     "filename": "On the edge - free world version.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/717232c76f96029032d65a537da4.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/717232c76f96029032d65a537da4.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/b9036b2afbac2a43f276e62ff6a5.webp",
     "creator": "Niabot",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -18,14 +18,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/717232c76f96029032d65a537da4.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-02",
     "title": "Pepper & Carrot — 2019",
     "filename": "2019-01-01 Pepper Carrot Happy-New-Year by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/9bebeda83454c22da5dbaabb10e8.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/9bebeda83454c22da5dbaabb10e8.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/34c6a451f6044e9ca3a56860982e.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -39,14 +40,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/9bebeda83454c22da5dbaabb10e8.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-03",
     "title": "Pepper & Carrot — 2021",
     "filename": "2021-01-01 happy-new-year Pepper and Carrot by David Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/c1d8b7c4b9e684e2f8acf970d9de.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/c1d8b7c4b9e684e2f8acf970d9de.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/601aa6a9e12614b78ec5efb31686.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -60,14 +62,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/c1d8b7c4b9e684e2f8acf970d9de.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-04",
     "title": "Pepper the Witch",
     "filename": "Pepper from Pepper&Carrot.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/47d10c7072a4c7b2496b6fac1a35.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/47d10c7072a4c7b2496b6fac1a35.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/f82599692957779a0045fbc434af.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -81,14 +84,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/47d10c7072a4c7b2496b6fac1a35.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-05",
     "title": "Carrot the Cat",
     "filename": "Carrot from Pepper&Carrot.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/57b557cab695e9fe8642ba944c2c.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/57b557cab695e9fe8642ba944c2c.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/b33bca36473cd9bc64e9e3f0dd82.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -102,14 +106,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/57b557cab695e9fe8642ba944c2c.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-06",
     "title": "The Second Cover",
     "filename": "2016-11-14 pepper carrot vertical-cover-book-two screen by-David-Revoy.png",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/f2c5ff3648eee4e305a84eae0791.png",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/f2c5ff3648eee4e305a84eae0791.png",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/e47a38c9b2faadac8ce401898bcc.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -123,14 +128,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/f2c5ff3648eee4e305a84eae0791.png",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-07",
     "title": "Magic Potions",
     "filename": "Gfx Pepper-and-Carrot by-David-Revoy E02P01-2.png",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/6b2b8fa7e08a545f94a0e4a5e429.png",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/6b2b8fa7e08a545f94a0e4a5e429.png",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/2cb6aee028bcd81a553b152a6901.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -144,14 +150,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/6b2b8fa7e08a545f94a0e4a5e429.png",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-08",
     "title": "The Wandering Reader",
     "filename": "Wikipe-tan, reading and editing a page.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/94c89f3f37033fcfaae8e870439a.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/94c89f3f37033fcfaae8e870439a.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/e2a76f833acce463e93e4eee71b8.webp",
     "creator": "David Revoy",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -165,14 +172,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/94c89f3f37033fcfaae8e870439a.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-09",
     "title": "Manga Pattern",
     "filename": "Figure in Manga style pattern.png",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/a35057ac1ced42310adc6af78844.png",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/a35057ac1ced42310adc6af78844.png",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/6e403149833efedd611e69f20614.webp",
     "creator": "Niabot",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -186,14 +194,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/a35057ac1ced42310adc6af78844.png",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-10",
     "title": "Sintel — Dragon",
     "filename": "Durian - Sintel-wallpaper-dragon.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/e2266814d231ed777bab473e9c9c.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/e2266814d231ed777bab473e9c9c.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/17ed544fe8f21815ee1a6833b899.webp",
     "creator": "David Revoy",
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
@@ -207,14 +216,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/e2266814d231ed777bab473e9c9c.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "wc-11",
     "title": "Sintel — Ishtar",
     "filename": "Durian - Sintel-wallpaper-ishtar.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/3ec4537fe97d85c70c265f925815.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/3ec4537fe97d85c70c265f925815.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/ba9c023f880b2e2ec545a80ea465.webp",
     "creator": "David Revoy",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
@@ -228,14 +238,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/3ec4537fe97d85c70c265f925815.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "fan-naruto-pencil",
     "title": "Naruto & Nine-Tails — Fan Pencil Art",
     "filename": "Art of Naruto.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/3dc080a450b1ac5b76b93e1c0ac4.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/3dc080a450b1ac5b76b93e1c0ac4.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/724fc334d142cd4975a0ff684044.webp",
     "creator": "Noukayami",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -250,14 +261,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/3dc080a450b1ac5b76b93e1c0ac4.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "fan-gojo-sketch",
     "title": "Gojo Satoru — Fan Sketch",
     "filename": "Sketch of gojo satoru.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/37781917dd4fda08ccb3adf47586.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/37781917dd4fda08ccb3adf47586.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/6c4c0e644e93991d1c5981215c81.webp",
     "creator": "Aarlen",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -272,14 +284,15 @@
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/37781917dd4fda08ccb3adf47586.jpg",
     "hostedOn": "Cloudflare R2",
     "contentRating": "sfw",
-    "editorialApproval": "previously-curated"
+    "editorialApproval": "previously-curated",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-001",
     "title": "Pepper — First Artwork",
     "filename": "2014-06-14 pepper first-artwork by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/8414abbf7c6b620691a6c9e6b1f2.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/8414abbf7c6b620691a6c9e6b1f2.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/75477e17e74a22e6403ce257f605.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -293,14 +306,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/8414abbf7c6b620691a6c9e6b1f2.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-002",
     "title": "Pepper & Carrot — First Cover",
     "filename": "2015-01-20 first cover- by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/b7c5cb4ac372f938acaa48efeeec.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/b7c5cb4ac372f938acaa48efeeec.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/6b9a18e24b282044736dbd13da76.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -314,14 +328,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/b7c5cb4ac372f938acaa48efeeec.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-003",
     "title": "Shichimi — Character Concept",
     "filename": "2015-02-17 shichimi-concept-art by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/dffce598358e74cc9c31b43938ce.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/dffce598358e74cc9c31b43938ce.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/c40503d758ce4d81a421f9ca3e1e.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -335,14 +350,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/dffce598358e74cc9c31b43938ce.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-004",
     "title": "Coriander — Character Concept",
     "filename": "2015-05-13 coriander concept-art by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/6a6b0fdae2d145df3b84c182ce50.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/6a6b0fdae2d145df3b84c182ce50.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/2f622abd2e861927e5b5595e3922.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -356,14 +372,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/6a6b0fdae2d145df3b84c182ce50.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-005",
     "title": "Hereva — Fantasy Landscape",
     "filename": "2015-12-29 landscape-cover-for-the-website by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/9f8c18d8561524bac97f731da6d8.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/9f8c18d8561524bac97f731da6d8.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/9493b62848d25e40b70bec280740.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -377,14 +394,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/9f8c18d8561524bac97f731da6d8.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-006",
     "title": "Pepper & Carrot — Cover Art",
     "filename": "2016-02-24 vertical-cover remake by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/671dc6e7595144e1b4e23902df0b.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/671dc6e7595144e1b4e23902df0b.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/00ee8dbd97d7fa4e759864d163ec.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -398,14 +416,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/671dc6e7595144e1b4e23902df0b.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-007",
     "title": "Pepper & Carrot — Rainy Days",
     "filename": "2017-03-14 rainy-days by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/d621f10761e865a7c3e9d73aa177.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/d621f10761e865a7c3e9d73aa177.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/b9af7b1d10926265866f3b67d63c.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -419,14 +438,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/d621f10761e865a7c3e9d73aa177.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-008",
     "title": "Pepper & Carrot — Run",
     "filename": "2017-10-11 run by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/4999d04151b77723d8b5e42880fc.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/4999d04151b77723d8b5e42880fc.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/d594f04252d3a1dee5b904c96579.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -440,14 +460,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/4999d04151b77723d8b5e42880fc.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-009",
     "title": "The Witch of Magmah",
     "filename": "2018-04-30 A witch-of-Magmah by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/3bc97731cfd14abc8f928418e7c1.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/3bc97731cfd14abc8f928418e7c1.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/25fa7cbc7345626e75f80a73396a.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -461,14 +482,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/3bc97731cfd14abc8f928418e7c1.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-010",
     "title": "Pepper & Carrot — Adventure",
     "filename": "2018-07-01 Adventure by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/5b5d673a89f6dc2df66dc9bd80a8.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/5b5d673a89f6dc2df66dc9bd80a8.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/526c9bb8dc634cf9bd118c6406cb.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -482,14 +504,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/5b5d673a89f6dc2df66dc9bd80a8.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-011",
     "title": "Pepper & Carrot — Thank You",
     "filename": "2018-11-19 thank-you-patreon-day by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/6fe9310e7ff8566019753062bafb.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/6fe9310e7ff8566019753062bafb.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/f7f1f6a834610121cbe0280e35ae.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -503,14 +526,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/6fe9310e7ff8566019753062bafb.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-012",
     "title": "Flight of Spring",
     "filename": "2019-02-27 Flight-of-Spring extended-version by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/30884d284e203cc00963f83ccf0b.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/30884d284e203cc00963f83ccf0b.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/15d3646618b3270bd5e2a1d94561.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -524,14 +548,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/30884d284e203cc00963f83ccf0b.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-013",
     "title": "Coriander the Queen",
     "filename": "2019-09-17 coriander-the-queen by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/324a926aa1038360fbf547e4c729.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/324a926aa1038360fbf547e4c729.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/284a1df90ad4b1c736ef91450350.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -545,14 +570,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/324a926aa1038360fbf547e4c729.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-014",
     "title": "Pepper — Witch of Hereva",
     "filename": "2019-10-16 Pepper by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/0c347afe0434360caf0e603bf698.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/0c347afe0434360caf0e603bf698.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/256a44f5c982e22c0c822c022b96.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -566,14 +592,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/0c347afe0434360caf0e603bf698.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-015",
     "title": "Chicory — Hereva",
     "filename": "2019-10-17 chicory by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/bef6254e5dc84b9670b76b5f714a.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/bef6254e5dc84b9670b76b5f714a.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/ccd5a9b5dfa00b0172db8047a9c4.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -587,14 +614,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/bef6254e5dc84b9670b76b5f714a.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-016",
     "title": "Pepper & Carrot — Winter Holidays",
     "filename": "2015-12-24 pepper carrot hollidays by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/6ef2e1f3246706ee54381ea33e9f.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/6ef2e1f3246706ee54381ea33e9f.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/be938d9abca13ff59ee7541ad97b.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -608,14 +636,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/6ef2e1f3246706ee54381ea33e9f.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-017",
     "title": "Pepper & Carrot — New Year 2016",
     "filename": "2016-01-04 Pepper Carrot happy-new-year 1080p.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/f75991a8fd563b4626b2ea15bd25.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/f75991a8fd563b4626b2ea15bd25.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/cfff5e2e8b5c00ef25edc7b97988.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -629,14 +658,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/f75991a8fd563b4626b2ea15bd25.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-018",
     "title": "Pepper & Carrot — Fixing the Project",
     "filename": "2016-05-28 pepper-and-carrot fixing-the-project by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/c45b980bf00982fe8eaf2fc9c5d1.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/c45b980bf00982fe8eaf2fc9c5d1.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/f2a11a89e73801a5da612bf54cbe.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -650,14 +680,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/c45b980bf00982fe8eaf2fc9c5d1.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-019",
     "title": "Pepper & Carrot — Happy Corner",
     "filename": "2016-06-05 pepper-and-carrot happy-corner-screen by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/4e933e9a61aec1e29451b0789e51.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/4e933e9a61aec1e29451b0789e51.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/c33eaf4ee782f3a9bcc3829b6baf.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -671,14 +702,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/4e933e9a61aec1e29451b0789e51.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-020",
     "title": "Pepper & Carrot — Halloween",
     "filename": "2016-10-31 pepper carrot happy-halloween by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/8fb836430ba7fe632dda23230805.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/8fb836430ba7fe632dda23230805.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/cf331bcc2e4c3bea5d982ca9bec5.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -692,14 +724,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/8fb836430ba7fe632dda23230805.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-021",
     "title": "Pepper & Carrot — New Year 2017",
     "filename": "2017-01-01 Happy-New-Year by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/c5cad2c4749bcd0afc83b90296c3.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/c5cad2c4749bcd0afc83b90296c3.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/f3865da8f3d7e58c19703afe4ff4.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -713,14 +746,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/c5cad2c4749bcd0afc83b90296c3.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-022",
     "title": "Pepper — Character Model Sheet",
     "filename": "2017-03-05 pepper-s-model-sheet by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/fe891369d51e31a4ab9017c5f0e4.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/fe891369d51e31a4ab9017c5f0e4.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/2f087a707052e63a9b050c18ada0.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -734,14 +768,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/fe891369d51e31a4ab9017c5f0e4.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-023",
     "title": "Pepper — Witch Portrait",
     "filename": "2017-06-23 portrait-of-Pepper by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/e0be1985ff91fd296d24f26c96d6.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/e0be1985ff91fd296d24f26c96d6.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/aa1638e2c8f0cebbae105a6044e8.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -755,14 +790,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/e0be1985ff91fd296d24f26c96d6.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-024",
     "title": "Pepper & Carrot — New Year 2018",
     "filename": "2018-01-01 Pepper Carrot Happy-New-Year by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/1a1b881bfee0ecf9d0bb23ce7bea.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/1a1b881bfee0ecf9d0bb23ce7bea.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/5bb10b17f58f0197f503845e6e23.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -776,14 +812,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/1a1b881bfee0ecf9d0bb23ce7bea.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-025",
     "title": "Pepper & Carrot — The Rendezvous",
     "filename": "2018-03-28 pepper carrot The-rendezvous by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/da9a8999fad971538eaf36f4e518.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/da9a8999fad971538eaf36f4e518.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/40e01ea93ffa9a3c2b71be660a3c.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -797,14 +834,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/da9a8999fad971538eaf36f4e518.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-026",
     "title": "Pepper & Carrot — Book Three",
     "filename": "2018-11-22 vertical-cover-book-three by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/ce91d696842871f207895e96ce9f.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/ce91d696842871f207895e96ce9f.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/9a1d3251a84abc8a177a156210a8.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -818,14 +856,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/ce91d696842871f207895e96ce9f.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-027",
     "title": "Pepper & Carrot — New Year 2020",
     "filename": "2020 happy-new-year.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/7037c26a153e0f60a6a3af161102.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/7037c26a153e0f60a6a3af161102.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/074dcfb8cc52c0ce7b912123910a.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -839,14 +878,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/7037c26a153e0f60a6a3af161102.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-028",
     "title": "Pepper & Carrot — Bergen",
     "filename": "2024-09-01 Pepper and Carrot in traditional clothing of Bergen by David Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/e0cb256baedf281d88597d44cdf0.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/e0cb256baedf281d88597d44cdf0.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/0e87be4aaf95d3f8940d534c7e31.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -860,14 +900,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/e0cb256baedf281d88597d44cdf0.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-029",
     "title": "Fantasy Landscape",
     "filename": "2007-01-30 Fantasy-Landscape by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/0a3a94ec7207631ff03811bf91c7.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/0a3a94ec7207631ff03811bf91c7.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/0f7709677233e7722247849c4bb3.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -881,14 +922,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/0a3a94ec7207631ff03811bf91c7.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-030",
     "title": "Lofi Cyberpunk",
     "filename": "2021-09-29 lofi cyberpunk by david-revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/d28b006cb60bfad85905e726338f.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/d28b006cb60bfad85905e726338f.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/7223113be3b007f51127cf5504de.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -902,14 +944,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/d28b006cb60bfad85905e726338f.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-031",
     "title": "The After-Rain Smell",
     "filename": "2023-01-09 The-after-rain-smell by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/1ae67b08013f4e52bb992224bb9b.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/1ae67b08013f4e52bb992224bb9b.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/070749043245c028f75d1b03d957.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -923,14 +966,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/1ae67b08013f4e52bb992224bb9b.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-032",
     "title": "Fantasy Game — Save Point",
     "filename": "2023-03-30 Concept-art-for-a-fictive-video-game-Save-Point by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/a3e97f2968389d07a3d89da6a4da.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/a3e97f2968389d07a3d89da6a4da.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/8ec4d45a26c32107d34831c0169d.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -944,14 +988,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/a3e97f2968389d07a3d89da6a4da.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-033",
     "title": "Bookworm — Fantasy Reading",
     "filename": "2023-06-11 Bookworm by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/0f00257582daf2f99b043c9bfd58.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/0f00257582daf2f99b043c9bfd58.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/1fcf1197d21677ad76b4b4392378.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -965,14 +1010,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/0f00257582daf2f99b043c9bfd58.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-034",
     "title": "Magical Fire — Fantasy Scene",
     "filename": "2023-07-02 Oh-wow-you-are-on-fire-lately by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/936251ae6ee33311b043dc30dc4e.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/936251ae6ee33311b043dc30dc4e.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/967da8cc0db81443b4653de56975.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -986,14 +1032,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/936251ae6ee33311b043dc30dc4e.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-035",
     "title": "Trolls and Legends",
     "filename": "2023-03-23 Trolls-and-Legends by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/1544651e7349032b647eb48a842f.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/1544651e7349032b647eb48a842f.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/60adcaad6ffdbd58f33eac3a8604.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1007,14 +1054,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/1544651e7349032b647eb48a842f.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-036",
     "title": "New Year Illustration 2023",
     "filename": "2023-01-01 new-year-illustration by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/d969f535d9123549a8e6d5b9d2fe.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/d969f535d9123549a8e6d5b9d2fe.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/fc41ded22a42acb7741b6959d959.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1028,14 +1076,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/d969f535d9123549a8e6d5b9d2fe.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-037",
     "title": "May I Join You?",
     "filename": "2023-06-21 MAY-I-JOIN-YOU by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/83f9927bede60750878345043689.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/83f9927bede60750878345043689.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/c15462df10f15c116c719a12c8d9.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1049,14 +1098,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/83f9927bede60750878345043689.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-038",
     "title": "Video Game Jam",
     "filename": "2023-06-12 video-game-jam by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/7ec7f56ce54ba5b1d7fabd0c1bf6.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/7ec7f56ce54ba5b1d7fabd0c1bf6.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/ed8a144100a6b8c143a2004e306c.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1070,14 +1120,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/7ec7f56ce54ba5b1d7fabd0c1bf6.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-039",
     "title": "Goodbye, Blue Bird",
     "filename": "2023-04-13 Goodbye-Blue-Bird by-David-Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/49b9d2184db8f6e07c108d1d5405.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/49b9d2184db8f6e07c108d1d5405.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/a709e635d2c0ed572cb4e1b2f311.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1091,14 +1142,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/49b9d2184db8f6e07c108d1d5405.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-040",
     "title": "KDE 25 — Illustrated Fantasy",
     "filename": "2021-10-13 kde-25-anniversary art by David Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/e3912348036be43dc760e301dec9.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/e3912348036be43dc760e301dec9.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/3a389dfc7686a31a527b2546e7c2.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1112,14 +1164,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/e3912348036be43dc760e301dec9.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-041",
     "title": "Alice in Wonderland — Fantasy Art",
     "filename": "Alice-in-Wonderland by-David-Revoy 2010-07-21.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/87d4bf628a381eaabb26a7d780db.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/87d4bf628a381eaabb26a7d780db.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/72bba8857933f7131789f064add3.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1133,14 +1186,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/87d4bf628a381eaabb26a7d780db.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-042",
     "title": "Kiki the Cyber Human",
     "filename": "Kiki the Cyber Human.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/2b940f2485d53a81a78eee540a4e.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/2b940f2485d53a81a78eee540a4e.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/1d09b5b6388ed4e8a71257335553.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1154,14 +1208,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/2b940f2485d53a81a78eee540a4e.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-043",
     "title": "Futuristic Aircraft Landing Pad",
     "filename": "Illustration of a futuristic aircraft on a landing pad by David Revoy.png",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/84a6b0fdba0d0a56d0285c4f23dd.png",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/84a6b0fdba0d0a56d0285c4f23dd.png",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/03672dd54a9f374d0abd36ec9238.webp",
     "creator": "David Revoy",
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
@@ -1175,14 +1230,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated-commons-license-verified",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/84a6b0fdba0d0a56d0285c4f23dd.png",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-044",
     "title": "Sintel & Scales — Christmas",
     "filename": "Sintel and Scales 2010 Christmas card by David Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/b54f00e63bafe0b57cd36199c53b.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/b54f00e63bafe0b57cd36199c53b.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/2740a3e09bea9feab4560591d835.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1196,14 +1252,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/b54f00e63bafe0b57cd36199c53b.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-045",
     "title": "Pepper — Impasto Painting",
     "filename": "Pepper by David Revoy.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/18571e336eb40a9182726b460c15.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/18571e336eb40a9182726b460c15.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/e0e4bfc922f101aec28f4522ef4c.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1217,14 +1274,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/18571e336eb40a9182726b460c15.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-046",
     "title": "Swift — Fantasy Ink Artwork",
     "filename": "David Revoy - Pepper&Carrot - October Ink Artworks 2017 (week 1) - Swift.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/7df202ddc4632be8d4cbc9675558.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/7df202ddc4632be8d4cbc9675558.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/fdc16a7171554f5c08d136a29943.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1238,14 +1296,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/7df202ddc4632be8d4cbc9675558.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-047",
     "title": "Underwater — Fantasy Ink Artwork",
     "filename": "David Revoy - Pepper&Carrot - October Ink Artworks 2017 (week 1) - Underwater.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/7fbbbba240c1624ced0353f68b85.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/7fbbbba240c1624ced0353f68b85.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/8654f28ce3aa00df929b397e8a2c.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1259,14 +1318,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/7fbbbba240c1624ced0353f68b85.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-048",
     "title": "Gigantic — Fantasy Ink Artwork",
     "filename": "David Revoy - Pepper&Carrot - October Ink Artworks 2017 (week 2) - Gigantic.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/1041164248f4fa1eec86b86b2e5e.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/1041164248f4fa1eec86b86b2e5e.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/c17b2b488cb5db066cc9bc659e20.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1280,14 +1340,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/1041164248f4fa1eec86b86b2e5e.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-049",
     "title": "Deep — Fantasy Ink Artwork",
     "filename": "David Revoy - Pepper&Carrot - October Ink Artworks 2017 (week 3) - Deep.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/c462691b48729a6127673fa62a26.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/c462691b48729a6127673fa62a26.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/0c022a31ba3fd7dd5981957b4070.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1301,14 +1362,15 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/c462691b48729a6127673fa62a26.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   },
   {
     "id": "sfw-david-revoy-050",
     "title": "Cloud — Fantasy Ink Artwork",
     "filename": "David Revoy - Pepper&Carrot - October Ink Artworks 2017 (week 3) - Cloud.jpg",
     "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/81fe4e453ea21f94f021bb1c0516.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/81fe4e453ea21f94f021bb1c0516.jpg",
+    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/80814af4a5b4642cd6259d231455.webp",
     "creator": "David Revoy",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -1322,6 +1384,7 @@
     "contentRating": "sfw",
     "editorialApproval": "family-friendly-theme-curated",
     "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/81fe4e453ea21f94f021bb1c0516.jpg",
-    "hostedOn": "Cloudflare R2"
+    "hostedOn": "Cloudflare R2",
+    "thumbnailOptimized": true
   }
 ]
