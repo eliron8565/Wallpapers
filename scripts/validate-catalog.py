@@ -27,6 +27,9 @@ for i, item in enumerate(items):
     assert urlparse(item["source"]).scheme == "https", f"Entry {i}: creator/source page URL required"
     assert item.get("type", "image") in MEDIA_TYPES, f"Entry {i}: invalid type"
     assert item["permission"] in PERMISSIONS, f"Entry {i}: documented permission required"
+    assert item.get("id") != "wc-01", "Rejected sexualized artwork must never return"
+    assert "on_the_edge_-_free_world_version" not in str(item.get("source", "")).lower(), "Rejected artwork source"
+    assert "717232c76f96029032d65a537da4" not in str(item.get("url", "")), "Rejected media object"
     check_sfw(item, i, "wallpaper")
 
 gifs = json.loads(Path("data/anime-gifs.json").read_text(encoding="utf-8"))
