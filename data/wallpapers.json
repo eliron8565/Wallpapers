@@ -1163,8 +1163,8 @@
     "url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Illustration_of_a_futuristic_aircraft_on_a_landing_pad_by_David_Revoy.png",
     "thumbnail": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Illustration_of_a_futuristic_aircraft_on_a_landing_pad_by_David_Revoy.png?width=640",
     "creator": "David Revoy",
-    "license": "CC BY 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
     "source": "https://commons.wikimedia.org/wiki/File:Illustration_of_a_futuristic_aircraft_on_a_landing_pad_by_David_Revoy.png",
     "permission": "open-license",
     "type": "image",
@@ -1173,7 +1173,7 @@
     "description": "Safe-for-work independent illustration by David Revoy. Original file and licensing: Wikimedia Commons.",
     "collection": "Family-friendly fantasy & anime-inspired art",
     "contentRating": "sfw",
-    "editorialApproval": "family-friendly-theme-curated"
+    "editorialApproval": "family-friendly-theme-curated-commons-license-verified"
   },
   {
     "id": "sfw-david-revoy-044",
