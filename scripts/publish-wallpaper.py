@@ -2,10 +2,12 @@
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 from urllib.parse import urlparse
 
 CATALOG = Path("data/wallpapers.json")
+ADULT_METADATA = re.compile(r"\\b(?:nsfw|hentai|ecchi|nude|nudity|naked|porn(?:ography)?|sexual|sex|lewd|fetish|explicit|erotic|r18|r-18|18\\+|lingerie|bikini|underwear|boobs?|breasts?|nipples?|onlyfans|rule\\s*34|rule34)\\b", re.I)
 TYPES = {
     ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png",
     ".webp": "image/webp", ".gif": "image/gif",
@@ -27,6 +29,9 @@ def prepare():
         assert os.environ[key].strip(), f"{key} is required"
     assert os.environ["INPUT_TYPE"] in ("image", "video")
     assert https_url("R2_PUBLIC_URL")
+    assert os.environ.get("INPUT_SFW_CONFIRM", "").lower() == "true", "SFW and no-memes confirmation is mandatory"
+    summary = " ".join(os.environ[k] for k in ("INPUT_TITLE", "INPUT_CREATOR", "INPUT_LICENSE"))
+    assert not ADULT_METADATA.search(summary), "Adult-themed metadata is not allowed"
 
 def inspect():
     body = Path("media-upload").read_bytes()
@@ -55,13 +60,18 @@ def catalog():
     url = base + "/" + key
     if not any(x.get("url") == url for x in items):
         items.append({
+            "id": "user-" + key.rsplit("/", 1)[-1].split(".", 1)[0],
             "title": os.environ["INPUT_TITLE"].strip(),
             "url": url,
             "creator": os.environ["INPUT_CREATOR"].strip(),
             "source": https_url("INPUT_SOURCE"),
             "license": os.environ["INPUT_LICENSE"].strip(),
             "permission": os.environ["INPUT_PERMISSION"],
-            "type": os.environ["INPUT_TYPE"]
+            "type": os.environ["INPUT_TYPE"],
+            "contentRating": "sfw",
+            "editorialApproval": "uploader-sfw-attestation",
+            "category": "Anime",
+            "description": "Creator-authorized SFW anime wallpaper."
         })
         CATALOG.write_text(json.dumps(items, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
