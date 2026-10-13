@@ -1,27 +1,5 @@
 [
   {
-    "id": "wc-01",
-    "title": "On the Edge",
-    "filename": "On the edge - free world version.jpg",
-    "url": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/licensed-anime/717232c76f96029032d65a537da4.jpg",
-    "thumbnail": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/thumbnails/b9036b2afbac2a43f276e62ff6a5.webp",
-    "creator": "Niabot",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "source": "https://commons.wikimedia.org/wiki/File:On_the_edge_-_free_world_version.jpg",
-    "permission": "open-license",
-    "type": "image",
-    "category": "Fantasy",
-    "orientation": "landscape",
-    "description": "Fantasy, anime landscape illustration",
-    "collection": "Commons Curated",
-    "downloadUrl": "https://pub-f9e0d2fa87774dc8b55beb5e04456b11.r2.dev/downloads/licensed-anime/717232c76f96029032d65a537da4.jpg",
-    "hostedOn": "Cloudflare R2",
-    "contentRating": "sfw",
-    "editorialApproval": "previously-curated",
-    "thumbnailOptimized": true
-  },
-  {
     "id": "wc-02",
     "title": "Pepper & Carrot — 2019",
     "filename": "2019-01-01 Pepper Carrot Happy-New-Year by-David-Revoy.jpg",
