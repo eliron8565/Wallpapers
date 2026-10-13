@@ -804,5 +804,614 @@
     "contentRating": "sfw",
     "editorialApproval": "anime-source-tags-screened",
     "moderationNote": "No adult-themed tags in reviewed title/source metadata."
+  },
+  {
+    "id": "giphy-hr8zgx6TpI6WiW0Qfc",
+    "title": "Demon Slayer — Tanjiro's Technique",
+    "series": "Demon Slayer",
+    "character": "Tanjiro",
+    "giphyId": "hr8zgx6TpI6WiW0Qfc",
+    "creator": "Crunchyroll",
+    "tags": [
+      "tanjiro",
+      "technique",
+      "water"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/hr8zgx6TpI6WiW0Qfc",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-l0Lcg8RhbVydyzWE4x",
+    "title": "Demon Slayer — Tanjiro's Journey",
+    "series": "Demon Slayer",
+    "character": "Tanjiro",
+    "giphyId": "l0Lcg8RhbVydyzWE4x",
+    "creator": "Crunchyroll",
+    "tags": [
+      "tanjiro",
+      "anime",
+      "scene"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/l0Lcg8RhbVydyzWE4x",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-lYwa85YMlf8ZnA8fQt",
+    "title": "Demon Slayer — Thunder Flash",
+    "series": "Demon Slayer",
+    "character": "Zenitsu",
+    "giphyId": "lYwa85YMlf8ZnA8fQt",
+    "creator": "mewnblyg",
+    "tags": [
+      "zenitsu",
+      "thunder",
+      "infinity",
+      "castle"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/lYwa85YMlf8ZnA8fQt",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-PDtQsPMV7IfiwZLcWh",
+    "title": "Demon Slayer — Zenitsu in Battle",
+    "series": "Demon Slayer",
+    "character": "Zenitsu",
+    "giphyId": "PDtQsPMV7IfiwZLcWh",
+    "creator": "mewnblyg",
+    "tags": [
+      "zenitsu",
+      "battle"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/PDtQsPMV7IfiwZLcWh",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-4ajQEQgTHvKxNWGFCK",
+    "title": "Demon Slayer — Falling Autumn Leaves",
+    "series": "Demon Slayer",
+    "character": "Zenitsu",
+    "giphyId": "4ajQEQgTHvKxNWGFCK",
+    "creator": "RespectiveCollective",
+    "tags": [
+      "zenitsu",
+      "leaves",
+      "falling"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/4ajQEQgTHvKxNWGFCK",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-Kr8ASS6xMfu1I92WDs",
+    "title": "Tanjiro Kamado — Hero Moment",
+    "series": "Demon Slayer",
+    "character": "Tanjiro",
+    "giphyId": "Kr8ASS6xMfu1I92WDs",
+    "creator": "Skywalkerdesigns",
+    "tags": [
+      "tanjiro",
+      "sword",
+      "anime"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/Kr8ASS6xMfu1I92WDs",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-RFN2XlVCO6GquMSotF",
+    "title": "Tanjiro — Kamado Scene",
+    "series": "Demon Slayer",
+    "character": "Tanjiro",
+    "giphyId": "RFN2XlVCO6GquMSotF",
+    "creator": "Mhkorleon",
+    "tags": [
+      "tanjiro",
+      "anime",
+      "edit"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/RFN2XlVCO6GquMSotF",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-yOoFhhyuhhyXLnb6Mb",
+    "title": "Demon Slayer — Tanjiro Castle",
+    "series": "Demon Slayer",
+    "character": "Tanjiro",
+    "giphyId": "yOoFhhyuhhyXLnb6Mb",
+    "creator": "mewnblyg",
+    "tags": [
+      "tanjiro",
+      "infinity",
+      "castle"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/yOoFhhyuhhyXLnb6Mb",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-PwfzTn5tTU3wH3Us8j",
+    "title": "Demon Slayer — Team Kamado",
+    "series": "Demon Slayer",
+    "character": "Tanjiro & Nezuko",
+    "giphyId": "PwfzTn5tTU3wH3Us8j",
+    "creator": "raykimofficial",
+    "tags": [
+      "tanjiro",
+      "nezuko",
+      "zenitsu"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/PwfzTn5tTU3wH3Us8j",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-T2d4uMzn7dzOVHcUHA",
+    "title": "Demon Slayer — Tanjiro & Nezuko Art",
+    "series": "Demon Slayer",
+    "character": "Tanjiro & Nezuko",
+    "giphyId": "T2d4uMzn7dzOVHcUHA",
+    "creator": "elitsang",
+    "tags": [
+      "tanjiro",
+      "anime",
+      "art"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/T2d4uMzn7dzOVHcUHA",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-8emKva4pMAzKpapnrJ",
+    "title": "Naruto & Sasuke — Shinobi Fight",
+    "series": "Naruto",
+    "character": "Naruto & Sasuke",
+    "giphyId": "8emKva4pMAzKpapnrJ",
+    "creator": "bandainamco",
+    "tags": [
+      "naruto",
+      "sasuke",
+      "ninja",
+      "battle"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/8emKva4pMAzKpapnrJ",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-yVKIYvgJcnLksbz5CS",
+    "title": "Naruto — Storm Battle",
+    "series": "Naruto",
+    "character": "Naruto & Sasuke",
+    "giphyId": "yVKIYvgJcnLksbz5CS",
+    "creator": "bandainamco",
+    "tags": [
+      "ninja",
+      "storm",
+      "battle"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/yVKIYvgJcnLksbz5CS",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-YSwGhkJJiSXREs3NF8",
+    "title": "Naruto — Ultimate Ninja Storm",
+    "series": "Naruto",
+    "character": "Naruto & Sasuke",
+    "giphyId": "YSwGhkJJiSXREs3NF8",
+    "creator": "bandainamco",
+    "tags": [
+      "naruto",
+      "ultimate",
+      "ninja"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/YSwGhkJJiSXREs3NF8",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-3o7btXJQm5DD8ApubC",
+    "title": "Naruto — Original Series",
+    "series": "Naruto",
+    "character": "Naruto Uzumaki",
+    "giphyId": "3o7btXJQm5DD8ApubC",
+    "creator": "Crunchyroll",
+    "tags": [
+      "naruto",
+      "anime"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/3o7btXJQm5DD8ApubC",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-3iWYGCWd2fyMHk2Mz3",
+    "title": "Boruto — Rasengan",
+    "series": "Naruto",
+    "character": "Boruto",
+    "giphyId": "3iWYGCWd2fyMHk2Mz3",
+    "creator": "animeologist",
+    "tags": [
+      "boruto",
+      "rasengan"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/3iWYGCWd2fyMHk2Mz3",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-0TWRmdKHPNEpBJO4G2",
+    "title": "Bleach — Byakuya Flash Step",
+    "series": "Bleach",
+    "character": "Byakuya Kuchiki",
+    "giphyId": "0TWRmdKHPNEpBJO4G2",
+    "creator": "Ergo8",
+    "tags": [
+      "byakuya",
+      "bleach"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/0TWRmdKHPNEpBJO4G2",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-opTzDrU1C1KboKGIiv",
+    "title": "Bleach — Soul Reaper's Power",
+    "series": "Bleach",
+    "character": "Sosuke Aizen",
+    "giphyId": "opTzDrU1C1KboKGIiv",
+    "creator": "tybwaiizen",
+    "tags": [
+      "aizen",
+      "bleach",
+      "tybw"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/opTzDrU1C1KboKGIiv",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-QfCQQQAI860CXZY9qs",
+    "title": "Bleach — Aizen's Aura",
+    "series": "Bleach",
+    "character": "Sosuke Aizen",
+    "giphyId": "QfCQQQAI860CXZY9qs",
+    "creator": "tybwaiizen",
+    "tags": [
+      "aizen",
+      "bankai"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/QfCQQQAI860CXZY9qs",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-bqd2d3SHaOEFhhar3o",
+    "title": "One Piece — Luffy and Straw Hats",
+    "series": "One Piece",
+    "character": "Monkey D. Luffy",
+    "giphyId": "bqd2d3SHaOEFhhar3o",
+    "creator": "ToeiAnimation",
+    "tags": [
+      "luffy",
+      "zoro",
+      "straw",
+      "hat"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/bqd2d3SHaOEFhhar3o",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-zBTigoZ3scnEWvU9m4",
+    "title": "One Piece — Luffy Pirate Warriors",
+    "series": "One Piece",
+    "character": "Monkey D. Luffy",
+    "giphyId": "zBTigoZ3scnEWvU9m4",
+    "creator": "bandainamco",
+    "tags": [
+      "luffy",
+      "pirates",
+      "one",
+      "piece"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/zBTigoZ3scnEWvU9m4",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-uQjxEEdDhmqbK",
+    "title": "One Piece — Straw Hat Journey",
+    "series": "One Piece",
+    "character": "Straw Hat Pirates",
+    "giphyId": "uQjxEEdDhmqbK",
+    "creator": "funimation",
+    "tags": [
+      "one",
+      "piece",
+      "anime"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/uQjxEEdDhmqbK",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-2vq8OIxjHefDH9d53p",
+    "title": "One Piece — Crew Landing",
+    "series": "One Piece",
+    "character": "Luffy & Zoro",
+    "giphyId": "2vq8OIxjHefDH9d53p",
+    "creator": "funimation",
+    "tags": [
+      "one",
+      "piece",
+      "landing"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/2vq8OIxjHefDH9d53p",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-uvCxJCIdf1BcY",
+    "title": "One Piece — Adventure Opening",
+    "series": "One Piece",
+    "character": "Straw Hat Pirates",
+    "giphyId": "uvCxJCIdf1BcY",
+    "creator": "funimation",
+    "tags": [
+      "one",
+      "piece",
+      "opening"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/uvCxJCIdf1BcY",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-b5VSLKppK5VywF8SNQ",
+    "title": "Dragon Ball — Saiyan Energy",
+    "series": "Dragon Ball",
+    "character": "Goku & Vegeta",
+    "giphyId": "b5VSLKppK5VywF8SNQ",
+    "creator": "bandainamco",
+    "tags": [
+      "goku",
+      "vegeta",
+      "dragon",
+      "ball"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/b5VSLKppK5VywF8SNQ",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-3og0IKa6vfP8K2Gnp6",
+    "title": "My Hero Academia — Heroic Moment",
+    "series": "My Hero Academia",
+    "character": "Hero Class",
+    "giphyId": "3og0IKa6vfP8K2Gnp6",
+    "creator": "Crunchyroll",
+    "tags": [
+      "my",
+      "hero",
+      "academia"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/3og0IKa6vfP8K2Gnp6",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-l0Iy1X6uq54R5wCOs",
+    "title": "My Hero Academia — Class Training",
+    "series": "My Hero Academia",
+    "character": "UA Students",
+    "giphyId": "l0Iy1X6uq54R5wCOs",
+    "creator": "Crunchyroll",
+    "tags": [
+      "my",
+      "hero",
+      "academia"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/l0Iy1X6uq54R5wCOs",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-3oKIPnHiVl2nVq6uTC",
+    "title": "My Hero Academia — Action",
+    "series": "My Hero Academia",
+    "character": "Hero Class",
+    "giphyId": "3oKIPnHiVl2nVq6uTC",
+    "creator": "Crunchyroll",
+    "tags": [
+      "my",
+      "hero",
+      "academia",
+      "action"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/3oKIPnHiVl2nVq6uTC",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-AhuULvcupAMCbsMmDI",
+    "title": "My Hero Academia — Deku & Bakugo",
+    "series": "My Hero Academia",
+    "character": "Izuku & Katsuki",
+    "giphyId": "AhuULvcupAMCbsMmDI",
+    "creator": "funimation",
+    "tags": [
+      "deku",
+      "bakugo",
+      "hero",
+      "fight"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/AhuULvcupAMCbsMmDI",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-xUA7b2NPuFD0uCLu7K",
+    "title": "My Hero Academia — Deku",
+    "series": "My Hero Academia",
+    "character": "Izuku Midoriya",
+    "giphyId": "xUA7b2NPuFD0uCLu7K",
+    "creator": "funimation",
+    "tags": [
+      "izuku",
+      "hero"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/xUA7b2NPuFD0uCLu7K",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-mlR0QdwsJUDdK",
+    "title": "Mob Psycho 100 — Psychic Energy",
+    "series": "Mob Psycho 100",
+    "character": "Mob",
+    "giphyId": "mlR0QdwsJUDdK",
+    "creator": "funimation",
+    "tags": [
+      "psychic",
+      "energy",
+      "mob"
+    ],
+    "featured": true,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/mlR0QdwsJUDdK",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-i1zt0m4687wsM",
+    "title": "Mob Psycho 100 — Flames",
+    "series": "Mob Psycho 100",
+    "character": "Mob",
+    "giphyId": "i1zt0m4687wsM",
+    "creator": "funimation",
+    "tags": [
+      "mob",
+      "psychic",
+      "flames"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/i1zt0m4687wsM",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
+  },
+  {
+    "id": "giphy-QDz5ag91r9ol2",
+    "title": "Mob Psycho 100 — Running",
+    "series": "Mob Psycho 100",
+    "character": "Mob",
+    "giphyId": "QDz5ag91r9ol2",
+    "creator": "funimation",
+    "tags": [
+      "mob",
+      "psycho",
+      "running"
+    ],
+    "featured": false,
+    "type": "giphy",
+    "source": "https://giphy.com/gifs/QDz5ag91r9ol2",
+    "contentRating": "sfw",
+    "editorialApproval": "original-publisher-source-and-metadata-screened",
+    "moderationNote": "Official or creator-linked GIPHY source metadata checked; content can still be reported for review."
   }
 ]
