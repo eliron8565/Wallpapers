@@ -8,10 +8,10 @@
 
 AnimeWallora is a fan-made SFW-curated anime GIF, illustration and wallpaper gallery. It uses images by independent artists and GIFs **embedded** from the original GIPHY host — no AI-generated wallpapers are made for this project.
 
-- **63 licensed image wallpapers** sourced from Wikimedia Commons, including safe fantasy art, manga-inspired portraits, cyberpunk scenes, Gojo & Naruto fan sketches and Pepper & Carrot artwork.
-- **41 anime GIF embeds** from GIPHY source pages, with Demon Slayer, Jujutsu Kaisen, Bleach, Naruto, One Piece and Dragon Ball represented.
-- Cloudflare R2 hosts and provides download URLs for approved static artworks (not GIPHY GIF files).
-- Responsive dark design, anime filters, series and character search, full previews, favorites saved on your device.
+- **103 original artwork source entries (licensed / Commons verification on upload)** sourced from Wikimedia Commons, including safe fantasy art, manga-inspired portraits, cyberpunk scenes, Gojo & Naruto fan sketches and Pepper & Carrot artwork.
+- **73 anime GIF embeds** from GIPHY source pages, with Demon Slayer, Jujutsu Kaisen, Bleach, Naruto, One Piece, Dragon Ball, My Hero Academia and Mob Psycho 100 represented.
+- Cloudflare R2 hosts approved static artworks (not GIPHY GIF files); records are added as source URLs first and switched to R2 URLs only after the Commons metadata and license check succeeds.
+- Responsive dark design, anime filters, series and character search, full previews, immersive fullscreen GIF playback, favorites saved on your device.
 - GIPHY GIFs are preview-only; they cannot be directly downloaded from AnimeWallora without source rights.
 - A reporting link on every preview lets viewers flag memes, wrong anime labels, adult material or other inappropriate content.
 
