@@ -38,6 +38,10 @@ on:
           - image
           - video
         required: true
+      sfw_confirm:
+        description: 'I confirmed the media is strictly SFW: no nudity, sexual content, explicit scenes or memes.'
+        type: boolean
+        required: true
 
 permissions:
   contents: write
@@ -62,6 +66,7 @@ jobs:
       INPUT_LICENSE: ${{ inputs.license }}
       INPUT_PERMISSION: ${{ inputs.permission }}
       INPUT_TYPE: ${{ inputs.file_type }}
+      INPUT_SFW_CONFIRM: ${{ inputs.sfw_confirm }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -90,4 +95,5 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add data/wallpapers.json
           git commit -m "Publish licensed anime wallpaper to media catalog"
+          git pull --rebase origin main
           git push
